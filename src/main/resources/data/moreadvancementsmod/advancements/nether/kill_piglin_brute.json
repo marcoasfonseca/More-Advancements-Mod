@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:nether/find_bastion",
+  "display": {
+    "icon": {
+      "item": "minecraft:golden_axe"
+    },
+    "title": {
+      "translate": "advancements.moreadvancementsmod.nether.kill_piglin_brute.title"
+    },
+    "description": {
+      "translate": "advancements.moreadvancementsmod.nether.kill_piglin_brute.description"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "requirement": {
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:piglin_brute"
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:player_killed_entity"
+    }},
+  "rewards": {
+    "experience": 50
+  }}

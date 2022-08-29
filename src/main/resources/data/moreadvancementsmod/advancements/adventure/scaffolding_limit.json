@@ -1,0 +1,30 @@
+{
+  "parent": "minecraft:adventure/root",
+  "display": {
+    "icon": {
+      "item": "minecraft:scaffolding"
+    },
+    "title": {
+      "translate": "advancements.moreadvancementsmod.adventure.scaffolding_limit.title"
+    },
+    "description": {
+      "translate": "advancements.moreadvancementsmod.adventure.scaffolding_limit.description"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "block": "minecraft:scaffolding",
+        "location": {
+          "position": {
+            "y": 319
+          }
+        }
+      }
+    }
+  }}

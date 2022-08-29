@@ -1,0 +1,41 @@
+{
+  "parent": "moreadvancementsmod:aquatic/root",
+  "display": {
+    "icon": {
+      "item": "minecraft:turtle_egg"
+    },
+    "title": {
+      "translate": "advancements.moreadvancementsmod.aquatic.bred_turtles.title"
+    },
+    "description": {
+      "translate": "advancements.moreadvancementsmod.aquatic.bred_turtles.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "requirement": {
+        "conditions": {
+          "parent": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "type": "minecraft:turtle"
+              }
+            }
+          ],
+          "partner": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "type": "minecraft:turtle"
+              }
+            }
+          ]
+        },
+        "trigger": "minecraft:bred_animals"
+      } } }

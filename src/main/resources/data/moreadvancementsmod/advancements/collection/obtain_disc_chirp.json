@@ -1,0 +1,29 @@
+{
+  "parent": "moreadvancementsmod:collection/jukebox",
+  "display": {
+    "icon": {
+      "item": "minecraft:music_disc_chirp"
+    },
+    "title": {
+      "translate": "advancements.moreadvancementsmod.collection.obtain_disc_chirp.title"
+    },
+    "description": {
+      "translate": "advancements.moreadvancementsmod.collection.obtain_disc_chirp.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:music_disc_chirp"
+            ]
+          }
+        ]
+      }  }   } }

@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "id": "moreadvancementsmod",
+  "version": "${version}",
+
+  "name": "More Advancements Mod",
+  "description": "This is an example description! Tell everyone what your mod is about!",
+  "authors": [
+    "ParDeus"
+  ],
+  "contact": {
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/FabricMC/fabric-example-mod"
+  },
+
+  "license": "CC0-1.0",
+  "icon": "assets/moreadvancementsmod/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.pardeus.moreadvancementsmod.MoreAdvancementsMod"
+    ],
+    "client": [
+      "net.pardeus.moreadvancementsmod.MoreAdvancementsModClient"
+    ]
+  },
+  "mixins": [
+
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.14.6",
+    "fabric": "*",
+    "minecraft": "~1.19",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "parent": "moreadvancementsmod:collection/obtain_disc_otherside",
+  "display": {
+    "icon": {
+      "item": "minecraft:music_disc_otherside"
+    },
+    "title": {
+      "translate": "advancements.moreadvancementsmod.collection.play_disc_otherside.title"
+    },
+    "description": {
+      "translate": "advancements.moreadvancementsmod.collection.play_disc_otherside.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "requirement": {
+      "conditions": {
+        "item": {
+            "items": [
+              "minecraft:music_disc_otherside"
+            ]
+          },
+          "location": {
+            "block": {
+              "blocks": [
+                "minecraft:jukebox"
+              ]
+            }
+          }
+      },
+      "trigger": "minecraft:item_used_on_block"
+    }   } }

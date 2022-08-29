@@ -1,0 +1,29 @@
+{
+  "parent": "minecraft:end/find_end_city",
+  "display": {
+    "icon": {
+      "item": "minecraft:dragon_head"
+    },
+    "title": {
+      "translate": "advancements.moreadvancementsmod.end.dragon_head.title"
+    },
+    "description": {
+      "translate": "advancements.moreadvancementsmod.end.dragon_head.description"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:dragon_head"
+            ]
+          }
+        ]
+      }  }   } }

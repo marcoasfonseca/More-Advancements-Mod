@@ -1,0 +1,35 @@
+{
+  "parent": "moreadvancementsmod:collection/obtain_disc_strad",
+  "display": {
+    "icon": {
+      "item": "minecraft:music_disc_strad"
+    },
+    "title": {
+      "translate": "advancements.moreadvancementsmod.collection.play_disc_strad.title"
+    },
+    "description": {
+      "translate": "advancements.moreadvancementsmod.collection.play_disc_strad.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "requirement": {
+      "conditions": {
+        "item": {
+            "items": [
+              "minecraft:music_disc_strad"
+            ]
+          },
+          "location": {
+            "block": {
+              "blocks": [
+                "minecraft:jukebox"
+              ]
+            }
+          }
+      },
+      "trigger": "minecraft:item_used_on_block"
+    }   } }

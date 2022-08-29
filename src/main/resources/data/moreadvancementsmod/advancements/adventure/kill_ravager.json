@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:adventure/voluntary_exile",
+  "display": {
+    "icon": {
+      "item": "moreadvancementsmod:ravager_face"
+    },
+    "title": {
+      "translate": "advancements.moreadvancementsmod.adventure.kill_ravager.title"
+    },
+    "description": {
+      "translate": "advancements.moreadvancementsmod.adventure.kill_ravager.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "requirement": {
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:ravager"
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:player_killed_entity"
+    }}}

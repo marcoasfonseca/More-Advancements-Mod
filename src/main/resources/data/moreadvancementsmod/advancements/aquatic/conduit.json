@@ -1,0 +1,25 @@
+{
+  "parent": "moreadvancementsmod:aquatic/heartofsea",
+  "display": {
+    "icon": {
+      "item": "minecraft:conduit"
+    },
+    "title": {
+      "translate": "advancements.moreadvancementsmod.aquatic.conduit.title"
+    },
+    "description": {
+      "translate": "advancements.moreadvancementsmod.aquatic.conduit.description"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "block": "minecraft:conduit"
+      }
+    }
+  } }

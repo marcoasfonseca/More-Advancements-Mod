@@ -1,0 +1,29 @@
+{
+  "parent": "moreadvancementsmod:aquatic/get_scute",
+  "display": {
+    "icon": {
+      "item": "minecraft:turtle_helmet"
+    },
+    "title": {
+      "translate": "advancements.moreadvancementsmod.aquatic.get_turtle_helmet.title"
+    },
+    "description": {
+      "translate": "advancements.moreadvancementsmod.aquatic.get_turtle_helmet.description"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:turtle_helmet"
+            ]
+          }
+        ]
+      }  }   }  }

@@ -1,0 +1,131 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:jukebox"
+    },
+    "title": {
+      "translate": "advancements.moreadvancementsmod.collection.root.title"
+    },
+    "description": {
+      "translate": "advancements.moreadvancementsmod.collection.root.description"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true,
+    "background": "moreadvancementsmod:textures/gui/advancements/backgrounds/collection.png"
+  },
+  "criteria": {
+    "mellohi": {
+      "conditions": {
+        "item": { "items": [ "minecraft:music_disc_mellohi"]},
+        "location": { "block": { "blocks": [ "minecraft:jukebox"]}}},
+      "trigger": "minecraft:item_used_on_block"},
+
+    "5": {
+      "conditions": {
+        "item": { "items": [ "minecraft:music_disc_5"]},
+        "location": { "block": { "blocks": [ "minecraft:jukebox"]}}},
+      "trigger": "minecraft:item_used_on_block"},
+
+    "11": {
+      "conditions": {
+        "item": { "items": [ "minecraft:music_disc_11"]},
+        "location": { "block": { "blocks": [ "minecraft:jukebox"]}}},
+      "trigger": "minecraft:item_used_on_block"},
+
+    "13": {
+      "conditions": {
+        "item": { "items": [ "minecraft:music_disc_13"]},
+        "location": { "block": { "blocks": [ "minecraft:jukebox"]}}},
+      "trigger": "minecraft:item_used_on_block"},
+
+    "blocks": {
+      "conditions": {
+        "item": { "items": [ "minecraft:music_disc_blocks"]},
+        "location": { "block": { "blocks": [ "minecraft:jukebox"]}}},
+      "trigger": "minecraft:item_used_on_block"},
+
+    "cat": {
+      "conditions": {
+        "item": { "items": [ "minecraft:music_disc_cat"]},
+        "location": { "block": { "blocks": [ "minecraft:jukebox"]}}},
+      "trigger": "minecraft:item_used_on_block"},
+
+    "chirp": {
+      "conditions": {
+        "item": { "items": [ "minecraft:music_disc_chirp"]},
+        "location": { "block": { "blocks": [ "minecraft:jukebox"]}}},
+      "trigger": "minecraft:item_used_on_block"},
+
+    "far": {
+      "conditions": {
+        "item": { "items": [ "minecraft:music_disc_far"]},
+        "location": { "block": { "blocks": [ "minecraft:jukebox"]}}},
+      "trigger": "minecraft:item_used_on_block"},
+
+    "mall": {
+      "conditions": {
+        "item": { "items": [ "minecraft:music_disc_mall"]},
+        "location": { "block": { "blocks": [ "minecraft:jukebox"]}}},
+      "trigger": "minecraft:item_used_on_block"},
+
+    "otherside": {
+      "conditions": {
+        "item": { "items": [ "minecraft:music_disc_otherside"]},
+        "location": { "block": { "blocks": [ "minecraft:jukebox"]}}},
+      "trigger": "minecraft:item_used_on_block"},
+
+    "pigstep": {
+      "conditions": {
+        "item": { "items": [ "minecraft:music_disc_pigstep"]},
+        "location": { "block": { "blocks": [ "minecraft:jukebox"]}}},
+      "trigger": "minecraft:item_used_on_block"},
+
+    "stal": {
+      "conditions": {
+        "item": { "items": [ "minecraft:music_disc_stal"]},
+        "location": { "block": { "blocks": [ "minecraft:jukebox"]}}},
+      "trigger": "minecraft:item_used_on_block"},
+
+    "strad": {
+      "conditions": {
+        "item": { "items": [ "minecraft:music_disc_strad"]},
+        "location": { "block": { "blocks": [ "minecraft:jukebox"]}}},
+      "trigger": "minecraft:item_used_on_block"},
+
+    "wait": {
+      "conditions": {
+        "item": { "items": [ "minecraft:music_disc_wait"]},
+        "location": { "block": { "blocks": [ "minecraft:jukebox"]}}},
+      "trigger": "minecraft:item_used_on_block"},
+
+    "ward": {
+      "conditions": {
+        "item": { "items": [ "minecraft:music_disc_ward"]},
+        "location": { "block": { "blocks": [ "minecraft:jukebox"]}}},
+      "trigger": "minecraft:item_used_on_block"}
+
+  },
+
+  "requirement": [
+    "mellohi",
+    "5",
+    "11",
+    "13",
+    "blocks",
+    "cat",
+    "chirp",
+    "far",
+    "mall",
+    "mellohi",
+    "otherside",
+    "pigstep",
+    "stal",
+    "strad",
+    "wait",
+    "ward"
+  ],
+  "rewards": {
+    "experience": 1000
+  }}

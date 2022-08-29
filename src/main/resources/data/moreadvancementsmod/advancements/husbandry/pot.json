@@ -1,0 +1,26 @@
+{
+  "parent": "minecraft:husbandry/root",
+  "display": {
+    "icon": {
+      "item": "minecraft:flower_pot"
+    },
+    "title": {
+      "translate": "advancements.moreadvancementsmod.husbandry.pot.title"
+    },
+    "description": {
+      "translate": "advancements.moreadvancementsmod.husbandry.pot.description"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "block": "minecraft:flower_pot"
+      }
+    }
+  }
+}

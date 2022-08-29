@@ -1,0 +1,30 @@
+{
+  "parent": "moreadvancementsmod:aquatic/root",
+  "display": {
+    "icon": {
+      "item": "minecraft:sea_pickle"
+    },
+    "title": {
+      "translate": "advancements.moreadvancementsmod.aquatic.pickle.title"
+    },
+    "description": {
+      "translate": "advancements.moreadvancementsmod.aquatic.pickle.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "block": "minecraft:sea_pickle",
+        "location": {
+          "fluid": {
+            "tag": "minecraft:water"
+          }
+        }
+      }
+    }
+  }}

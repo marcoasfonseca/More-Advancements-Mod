@@ -1,0 +1,32 @@
+{
+  "parent": "moreadvancementsmod:aquatic/kill_guardian",
+  "display": {
+    "icon": {
+      "item": "moreadvancementsmod:elder_guardian_face"
+    },
+    "title": {
+      "translate": "advancements.moreadvancementsmod.aquatic.kill_elder_guardian.title"
+    },
+    "description": {
+      "translate": "advancements.moreadvancementsmod.aquatic.kill_elder_guardian.description"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "requirement": {
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:elder_guardian"
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:player_killed_entity"
+    }}}

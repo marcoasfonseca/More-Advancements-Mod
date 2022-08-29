@@ -1,0 +1,35 @@
+{
+  "parent": "moreadvancementsmod:aquatic/root",
+  "display": {
+    "icon": {
+      "item": "minecraft:apple"
+    },
+    "title": {
+      "translate": "advancements.moreadvancementsmod.aquatic.find_shipwreck.title"
+    },
+    "description": {
+      "translate": "advancements.moreadvancementsmod.aquatic.find_shipwreck.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "requirement": {
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structure": "minecraft:shipwreck"
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:location"
+    }
+       }}

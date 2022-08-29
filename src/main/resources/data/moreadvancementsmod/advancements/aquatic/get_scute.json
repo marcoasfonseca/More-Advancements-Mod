@@ -1,0 +1,29 @@
+{
+  "parent": "moreadvancementsmod:aquatic/bred_turtles",
+  "display": {
+    "icon": {
+      "item": "minecraft:scute"
+    },
+    "title": {
+      "translate": "advancements.moreadvancementsmod.aquatic.get_scute.title"
+    },
+    "description": {
+      "translate": "advancements.moreadvancementsmod.aquatic.get_scute.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:scute"
+            ]
+          }
+        ]
+      }  }   } }

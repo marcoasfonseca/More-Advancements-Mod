@@ -1,0 +1,35 @@
+{
+  "parent": "moreadvancementsmod:aquatic/root",
+  "display": {
+    "icon": {
+      "item": "minecraft:prismarine_bricks"
+    },
+    "title": {
+      "translate": "advancements.moreadvancementsmod.aquatic.find_monument.title"
+    },
+    "description": {
+      "translate": "advancements.moreadvancementsmod.aquatic.find_monument.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "requirement": {
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structure": "minecraft:monument"
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:location"
+    }
+       }}
