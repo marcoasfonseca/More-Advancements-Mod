@@ -1,0 +1,69 @@
+{
+  "parent": "minecraft:husbandry/fishy_business",
+  "display": {
+    "icon": {
+      "item": "minecraft:tropical_fish"
+    },
+    "title": {
+      "translate": "advancements.moreadvancementsmod.husbandry.catch_all_fishes.title"
+    },
+    "description": {
+      "translate": "advancements.moreadvancementsmod.husbandry.catch_all_fishes.description"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "cod": {
+      "trigger": "minecraft:fishing_rod_hooked",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:cod"
+          ]
+        }
+      }
+    },
+    "salmon": {
+      "trigger": "minecraft:fishing_rod_hooked",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:salmon"
+          ]
+        }
+      }
+    },
+    "tropical_fish": {
+      "trigger": "minecraft:fishing_rod_hooked",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:tropical_fish"
+          ]
+        }
+      }
+    },
+    "pufferfish": {
+      "trigger": "minecraft:fishing_rod_hooked",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:pufferfish"
+          ]
+        }
+      }
+    }
+  },
+  "requirement": [
+    ["cod"],
+    ["salmon"],
+    ["tropical_fish"],
+    ["pufferfish"]
+  ],
+  "rewards": {
+    "experience": 400
+  }
+}

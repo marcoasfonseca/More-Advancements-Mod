@@ -1,0 +1,34 @@
+{
+  "parent": "moreadvancementsmod:husbandry/rabbit_foot",
+  "display": {
+    "icon": {
+      "item": "minecraft:rabbit_foot"
+    },
+    "title": {
+      "translate": "advancements.moreadvancementsmod.husbandry.rabbit_feet.title"
+    },
+    "description": {
+      "translate": "advancements.moreadvancementsmod.husbandry.rabbit_feet.description"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:rabbit_foot"
+            ],
+            "count": 5
+          }
+        ]
+      } }   },
+  "rewards": {
+    "experience": 500,
+    "function": "moreadvancementsmod:advancements/rabbit_feet"
+  } }

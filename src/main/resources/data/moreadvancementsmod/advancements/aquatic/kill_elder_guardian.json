@@ -2,7 +2,7 @@
   "parent": "moreadvancementsmod:aquatic/kill_guardian",
   "display": {
     "icon": {
-      "item": "moreadvancementsmod:elder_guardian_face"
+      "item": "minecraft:elder_guardian_spawn_egg"
     },
     "title": {
       "translate": "advancements.moreadvancementsmod.aquatic.kill_elder_guardian.title"

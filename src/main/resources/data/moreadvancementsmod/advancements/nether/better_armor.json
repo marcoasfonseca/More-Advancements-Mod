@@ -90,6 +90,10 @@
                   "levels": 3
                 },
                 {
+                  "enchantment": "minecraft:swift_sneak",
+                  "levels": 3
+                },
+                {
                   "enchantment": "minecraft:protection",
                   "levels": 4
                 }

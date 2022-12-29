@@ -1,0 +1,51 @@
+{
+  "parent": "minecraft:husbandry/obtain_netherite_hoe",
+  "display": {
+    "icon": {
+      "item": "minecraft:netherite_hoe",
+      "nbt": "{Enchantments: [{lvl:4s, id: \"minecraft:protection\"}]}"
+    },
+    "title": {
+      "translate": "advancements.moreadvancementsmod.husbandry.enchanted_hoe.title"
+    },
+    "description": {
+      "translate": "advancements.moreadvancementsmod.husbandry.enchanted_hoe.description"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:netherite_hoe"
+            ],
+            "enchantments": [
+              {
+                "enchantment": "minecraft:unbreaking",
+                "levels": 3
+              },
+              {
+                "enchantment": "minecraft:mending"
+              },
+              {
+                "enchantment": "minecraft:silk_touch"
+              },
+              {
+                "enchantment": "minecraft:efficiency",
+                "levels": 5
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 500
+  }}

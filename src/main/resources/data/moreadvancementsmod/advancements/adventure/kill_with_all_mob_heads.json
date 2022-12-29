@@ -1,0 +1,118 @@
+{
+  "parent": "moreadvancementsmod:adventure/all_mob_heads",
+  "display": {
+    "icon": {
+      "item": "minecraft:zombie_head"
+    },
+    "title": {
+      "translate": "advancements.moreadvancementsmod.adventure.kill_with_all_mob_heads.title"
+    },
+    "description": {
+      "translate": "advancements.moreadvancementsmod.adventure.kill_with_all_mob_heads.description"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "skeleton_skull": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "equipment": {
+                "head": {
+                  "items": [
+                    "minecraft:skeleton_skull"
+                  ]
+                }
+              }
+            }
+          }
+        ],
+        "entity": {
+          "type": "minecraft:skeleton"
+        }
+      }
+    },
+  "wither_skeleton_skull": {
+    "trigger": "minecraft:player_killed_entity",
+    "conditions": {
+      "player": [
+        {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "equipment": {
+              "head": {
+                "items": [
+                  "minecraft:wither_skeleton_skull"
+                ]
+              }
+            }
+          }
+        }
+      ],
+      "entity": {
+        "type": "minecraft:wither_skeleton"
+      }
+    }
+  },
+    "creeper_head": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "equipment": {
+                "head": {
+                  "items": [
+                    "minecraft:creeper_head"
+                  ]
+                }
+              }
+            }
+          }
+        ],
+        "entity": {
+          "type": "minecraft:creeper"
+        }
+      }  },
+    "zombie_head": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "equipment": {
+                "head": {
+                  "items": [
+                    "minecraft:zombie_head"
+                  ]
+                }
+              }
+            }
+          }
+        ],
+        "entity": {
+          "type": "minecraft:zombie"
+        }
+      }  }},
+  "requirement": [
+    ["skeleton_skull"],
+    ["wither_skeleton_skull"],
+    ["zombie_head"],
+    ["creeper_head"]
+  ],
+  "rewards": {
+    "experience": 200
+  }
+}

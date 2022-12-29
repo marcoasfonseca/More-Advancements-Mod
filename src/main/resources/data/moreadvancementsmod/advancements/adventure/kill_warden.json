@@ -31,6 +31,6 @@
       "trigger": "minecraft:player_killed_entity"
     }},
   "rewards": {
-    "experience": 1000
+    "experience": 100
   }
   }

@@ -1,5 +1,5 @@
 {
-  "parent": "moreadvancementsmod:aquatic/root",
+  "parent": "moreadvancementsmod:aquatic/trade_monument_map",
   "display": {
     "icon": {
       "item": "minecraft:prismarine_bricks"
@@ -10,7 +10,7 @@
     "description": {
       "translate": "advancements.moreadvancementsmod.aquatic.find_monument.description"
     },
-    "frame": "task",
+    "frame": "goal",
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false

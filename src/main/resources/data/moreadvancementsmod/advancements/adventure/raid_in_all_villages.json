@@ -1,0 +1,81 @@
+{
+  "parent": "minecraft:adventure/hero_of_the_village",
+  "display": {
+    "icon": {
+      "item": "minecraft:bell",
+      "nbt": "{Enchantments: [{lvl:4s, id: \"minecraft:protection\"}]}"
+    },
+    "title": {
+      "translate": "advancements.moreadvancementsmod.adventure.raid_in_all_villages.title"
+    },
+    "description": {
+      "translate": "advancements.moreadvancementsmod.adventure.raid_in_all_villages.description"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "desert": {
+      "trigger": "minecraft:hero_of_the_village",
+      "conditions": {
+        "player": {
+          "location": {
+            "biome": "minecraft:desert"
+          }
+        }
+      }
+    },
+    "plains": {
+      "trigger": "minecraft:hero_of_the_village",
+      "conditions": {
+        "player": {
+          "location": {
+            "biome": "minecraft:plains"
+          }
+        }
+      }
+    },
+    "savanna": {
+      "trigger": "minecraft:hero_of_the_village",
+      "conditions": {
+        "player": {
+          "location": {
+            "biome": "minecraft:savanna"
+          }
+        }
+      }
+    },
+    "taiga": {
+      "trigger": "minecraft:hero_of_the_village",
+      "conditions": {
+        "player": {
+          "location": {
+            "biome": "minecraft:taiga"
+          }
+        }
+      }
+    },
+    "snowy": {
+      "trigger": "minecraft:hero_of_the_village",
+      "conditions": {
+        "player": {
+          "location": {
+            "biome": "minecraft:snowy_plains"
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    ["desert"],
+    ["plains"],
+    ["taiga"],
+    ["savanna"],
+    ["snowy"]
+  ],
+  "rewards": {
+    "experience": 1000,
+    "function": "moreadvancementsmod:advancements/raid_in_all_villages"
+  }}

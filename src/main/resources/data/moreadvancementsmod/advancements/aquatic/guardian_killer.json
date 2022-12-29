@@ -1,0 +1,40 @@
+{
+  "parent": "moreadvancementsmod:aquatic/kill_guardian",
+  "display": {
+    "icon": {
+      "item": "moreadvancementsmod:guardian_face"
+    },
+    "title": {
+      "translate": "advancements.moreadvancementsmod.aquatic.guardian_killer.title"
+    },
+    "description": {
+      "translate": "advancements.moreadvancementsmod.aquatic.guardian_killer.description"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "stats": [
+              {
+                "type": "minecraft:killed",
+                "stat": "minecraft:guardian",
+                "value": 50
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "experience": 1000,
+    "function": "moreadvancementsmod:advancements/guardian_killer"
+  }}

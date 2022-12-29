@@ -1,0 +1,112 @@
+{
+  "parent": "minecraft:husbandry/ride_a_boat_with_a_goat",
+  "display": {
+    "icon": {
+      "item": "minecraft:goat_horn"
+    },
+    "title": {
+      "translate": "advancements.moreadvancementsmod.husbandry.all_horns.title"
+    },
+    "description": {
+      "translate": "advancements.moreadvancementsmod.husbandry.all_horns.description"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "sing_horn": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:goat_horn"
+            ],
+            "nbt": "{instrument:\"minecraft:sing_goat_horn\"}"
+          }]}},
+    "ponder_horn": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:goat_horn"
+            ],
+            "nbt": "{instrument:\"minecraft:ponder_goat_horn\"}"
+          }]}},
+    "seek_horn": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:goat_horn"
+            ],
+            "nbt": "{instrument:\"minecraft:seek_goat_horn\"}"
+          }]}},
+    "feel_horn": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:goat_horn"
+            ],
+            "nbt": "{instrument:\"minecraft:feel_goat_horn\"}"
+          }]}},
+    "admire_horn": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:goat_horn"
+            ],
+            "nbt": "{instrument:\"minecraft:admire_goat_horn\"}"
+          }]}},
+    "call_horn": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:goat_horn"
+            ],
+            "nbt": "{instrument:\"minecraft:call_goat_horn\"}"
+          }]}},
+    "yearn_horn": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:goat_horn"
+            ],
+            "nbt": "{instrument:\"minecraft:yearn_goat_horn\"}"
+          }]}},
+    "dream_horn": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:goat_horn"
+            ],
+            "nbt": "{instrument:\"minecraft:dream_goat_horn\"}"
+          }]}}
+  },
+  "requirement": [
+    ["sing_horn"],
+    ["ponder_horn"],
+    ["seek_horn"],
+    ["feel_horn"],
+    ["admire_horn"],
+    ["call_horn"],
+    ["yearn_horn"],
+    ["dream_horn"]
+  ],
+  "rewards": {
+    "experience": 800
+  } }

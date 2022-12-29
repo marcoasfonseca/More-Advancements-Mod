@@ -1,5 +1,5 @@
 {
-  "parent": "minecraft:adventure/root",
+  "parent": "moreadvancementsmod:adventure/trade_mansion_map",
   "display": {
     "icon": {
       "item": "minecraft:painting"

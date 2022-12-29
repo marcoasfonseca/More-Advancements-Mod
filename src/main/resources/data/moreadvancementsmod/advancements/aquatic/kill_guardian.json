@@ -1,8 +1,8 @@
 {
-  "parent": "moreadvancementsmod:aquatic/find_monument",
+  "parent": "moreadvancementsmod:aquatic/fish_guardian",
   "display": {
     "icon": {
-      "item": "moreadvancementsmod:guardian_face"
+      "item": "minecraft:guardian_spawn_egg"
     },
     "title": {
       "translate": "advancements.moreadvancementsmod.aquatic.kill_guardian.title"

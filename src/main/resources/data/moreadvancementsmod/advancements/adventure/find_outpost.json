@@ -2,15 +2,15 @@
   "parent": "minecraft:adventure/voluntary_exile",
   "display": {
     "icon": {
-      "item": "minecraft:saddle"
+      "item": "minecraft:dark_oak_log"
     },
     "title": {
-      "translate": "advancements.moreadvancementsmod.adventure.kill_ravager.title"
+      "translate": "advancements.moreadvancementsmod.adventure.find_outpost.title"
     },
     "description": {
-      "translate": "advancements.moreadvancementsmod.adventure.kill_ravager.description"
+      "translate": "advancements.moreadvancementsmod.adventure.find_outpost.description"
     },
-    "frame": "task",
+    "frame": "goal",
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false
@@ -18,15 +18,18 @@
   "criteria": {
     "requirement": {
       "conditions": {
-        "entity": [
+        "player": [
           {
             "condition": "minecraft:entity_properties",
             "entity": "this",
             "predicate": {
-              "type": "minecraft:ravager"
+              "location": {
+                "structure": "minecraft:pillager_outpost"
+              }
             }
           }
         ]
       },
-      "trigger": "minecraft:player_killed_entity"
-    }}}
+      "trigger": "minecraft:location"
+    }
+       }}

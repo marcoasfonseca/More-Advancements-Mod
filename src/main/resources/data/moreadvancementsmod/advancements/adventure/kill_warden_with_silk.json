@@ -1,0 +1,53 @@
+{
+  "parent": "moreadvancementsmod:adventure/kill_warden",
+  "display": {
+    "icon": {
+      "item": "minecraft:netherite_axe",
+      "nbt": "{Enchantments: [{lvl:1s, id: \"minecraft:silk_touch\"}]}"
+    },
+    "title": {
+      "translate": "advancements.moreadvancementsmod.adventure.kill_warden_with_silk.title"
+    },
+    "description": {
+      "translate": "advancements.moreadvancementsmod.adventure.kill_warden_with_silk.description"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "mainhand": {
+              "items": [
+                "minecraft:netherite_axe"
+              ],
+              "enchantments": [
+                {
+                  "enchantment": "minecraft:silk_touch"
+                }
+              ]
+            }
+          }
+        },
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:warden"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 1000,
+    "function": "moreadvancementsmod:advancements/kill_warden"
+  }
+  }

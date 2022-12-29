@@ -1,0 +1,87 @@
+{
+  "parent": "minecraft:husbandry/plant_seed",
+  "display": {
+    "icon": {
+      "item": "minecraft:cocoa_beans"
+    },
+    "title": {
+      "translate": "advancements.moreadvancementsmod.husbandry.plant_all_seeds.title"
+    },
+    "description": {
+      "translate": "advancements.moreadvancementsmod.husbandry.plant_all_seeds.description"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "melon": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "block": "minecraft:melon_stem"
+      }
+    },
+    "wheat": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "block": "minecraft:wheat"
+      }
+    },
+    "beetroot": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "block": "minecraft:beetroots"
+      }
+    },
+    "carrot": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "block": "minecraft:carrots"
+      }
+    },
+    "potato": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "block": "minecraft:potatoes"
+      }
+    },
+    "cocoa": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "block": "minecraft:cocoa"
+      }
+    },
+    "pumpkin": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "block": "minecraft:pumpkin_stem"
+      }
+    },
+    "sweet_berries": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "block": "minecraft:sweet_berry_bush"
+      }
+    },
+    "glow_berries": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "block": "minecraft:cave_vines"
+      }
+    }
+  },
+  "requirements": [
+    ["melon"],
+    ["wheat"],
+    ["beetroot"],
+    ["carrot"],
+    ["potato"],
+    ["cocoa"],
+    ["pumpkin"],
+    ["sweet_berries"],
+    ["glow_berries"]
+  ],
+  "rewards": {
+    "experience": 900
+  }}

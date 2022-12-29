@@ -2,7 +2,7 @@
   "parent": "moreadvancementsmod:husbandry/bake_bread",
   "display": {
     "icon": {
-      "item": "minecraft:cake"
+      "item": "minecraft:furnace"
     },
     "title": {
       "translate": "advancements.moreadvancementsmod.husbandry.bake_cake.title"
