@@ -1,41 +1,24 @@
 {
-  "schemaVersion": 1,
-  "id": "moreadvancementsmod",
-  "version": "${version}",
-
-  "name": "More Advancements Mod",
-  "description": "",
-  "authors": [
+  "schemaVersion":1,
+  "id":"moreadvancementsmod",
+  "name":"More Advancements Mod",
+  "version":"${version}",
+  "description":"Mod that adds new advancements to challenge you through the game and rewards you for your in game achievements as it should be in the base game.",
+  "license":"CC0-1.0",
+  "authors":[
     "ParDeus"
   ],
-  "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+  "contact":{
+    "homepage":"https://www.curseforge.com/minecraft/mc-mods/more-advancements-mod-fabric"
   },
-
-  "license": "CC0-1.0",
-  "icon": "assets/moreadvancementsmod/icon.png",
-
-  "environment": "*",
-  "entrypoints": {
-    "main": [
+  "icon":"assets/moreadvancementsmod/icon.png",
+  "entrypoints":{
+    "main":[
       "net.pardeus.moreadvancementsmod.MoreAdvancementsMod"
-    ],
-    "client": [
-      "net.pardeus.moreadvancementsmod.MoreAdvancementsModClient"
     ]
   },
-  "mixins": [
-
-  ],
-
-  "depends": {
-    "fabricloader": ">=0.14.6",
-    "fabric-api": "*",
-    "minecraft": "~1.19",
-    "java": ">=17"
-  },
-  "suggests": {
-    "another-mod": "*"
+  "depends":{
+    "minecraft":"~1.19",
+    "fabric-api":"*"
   }
 }
