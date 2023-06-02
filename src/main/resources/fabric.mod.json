@@ -9,7 +9,8 @@
     "ParDeus"
   ],
   "contact":{
-    "homepage":"https://www.curseforge.com/minecraft/mc-mods/more-advancements-mod-fabric"
+    "homepage":"https://www.curseforge.com/minecraft/mc-mods/more-advancements-mod-fabric",
+    "issues":"https://github.com/marcoasfonseca/More-Advancements-Mod/issues"
   },
   "icon":"assets/moreadvancementsmod/icon.png",
   "entrypoints":{
