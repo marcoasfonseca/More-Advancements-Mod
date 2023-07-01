@@ -3,7 +3,7 @@ plugins {
 }
 
 archivesBaseName = project.archives_base_name
-version = "${project.mod_version}+${project.minecraft_version}"
+version = "${project.mod_version}"
 
 dependencies {
 	minecraft("com.mojang:minecraft:${project.minecraft_version}")
