@@ -29,6 +29,5 @@
         ]
       } }   },
   "rewards": {
-    "experience": 500,
-    "function": "moreadvancementsmod:advancements/rabbit_feet"
+    "experience": 500
   } }

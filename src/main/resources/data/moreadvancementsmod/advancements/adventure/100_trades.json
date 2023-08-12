@@ -36,7 +36,6 @@
     }
   },
   "rewards": {
-    "experience": 1000,
-    "function": "moreadvancementsmod:advancements/100_trades"
+    "experience": 1000
   }
 }

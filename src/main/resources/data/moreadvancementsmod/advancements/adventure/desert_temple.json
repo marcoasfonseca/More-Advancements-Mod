@@ -1,0 +1,29 @@
+{
+  "parent": "moreadvancementsmod:adventure/desert",
+  "display": {
+    "icon": {
+      "item": "minecraft:chiseled_sandstone"
+    },
+    "title": {
+      "translate": "advancements.moreadvancementsmod.adventure.desert_temple.title"
+    },
+    "description": {
+      "translate": "advancements.moreadvancementsmod.adventure.desert_temple.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "stepping_on": {
+            "structure": "minecraft:desert_pyramid"
+          }
+        }
+      }
+    }
+  } }

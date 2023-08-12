@@ -173,6 +173,5 @@
 
   ],
   "rewards": {
-    "experience": 1000,
-    "function": "moreadvancementsmod:advancements/ghast_killer"
+    "experience": 1000
   }}

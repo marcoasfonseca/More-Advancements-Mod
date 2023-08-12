@@ -35,6 +35,5 @@
     }
   },
   "rewards": {
-    "experience": 200,
-    "function": "moreadvancementsmod:advancements/eat_cake_slices"
+    "experience": 200
   } }

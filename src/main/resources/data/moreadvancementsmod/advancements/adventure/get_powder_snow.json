@@ -1,0 +1,34 @@
+{
+  "parent": "minecraft:adventure/walk_on_powder_snow_with_leather_boots",
+  "display": {
+    "icon": {
+      "item": "minecraft:powder_snow_bucket"
+    },
+    "title": {
+      "translate": "advancements.moreadvancementsmod.adventure.get_powder_snow.title"
+    },
+    "description": {
+      "translate": "advancements.moreadvancementsmod.adventure.get_powder_snow.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:powder_snow_bucket"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 50
+  }}

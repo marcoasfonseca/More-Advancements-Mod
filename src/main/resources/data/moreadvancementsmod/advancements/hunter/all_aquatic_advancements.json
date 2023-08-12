@@ -1,0 +1,446 @@
+{
+  "parent": "moreadvancementsmod:hunter/root",
+  "display": {
+    "icon": {
+      "item": "minecraft:water_bucket"
+    },
+    "title": {
+      "translate": "advancements.moreadvancementsmod.hunter.all_aquatic_advancements.title"
+    },
+    "description": {
+      "translate": "advancements.moreadvancementsmod.hunter.all_aquatic_advancements.description"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "root": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "moreadvancementsmod:aquatic/root": true
+            }
+          }
+        }
+      }
+    },
+    "biomes": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "moreadvancementsmod:aquatic/biomes": true
+            }
+          }
+        }
+      }
+    },
+    "boat": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "moreadvancementsmod:aquatic/boat": true
+            }
+          }
+        }
+      }
+    },
+    "bred_turtles": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "moreadvancementsmod:aquatic/bred_turtles": true
+            }
+          }
+        }
+      }
+    },
+    "conduit": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "moreadvancementsmod:aquatic/conduit": true
+            }
+          }
+        }
+      }
+    },
+    "dolphin": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "moreadvancementsmod:aquatic/dolphin": true
+            }
+          }
+        }
+      }
+    },
+    "elder_guardian_killer": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "moreadvancementsmod:aquatic/elder_guardian_killer": true
+            }
+          }
+        }
+      }
+    },
+    "find_monument": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "moreadvancementsmod:aquatic/find_monument": true
+            }
+          }
+        }
+      }
+    },
+    "find_shipwreck": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "moreadvancementsmod:aquatic/find_shipwreck": true
+            }
+          }
+        }
+      }
+    },
+    "find_tresure": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "moreadvancementsmod:aquatic/find_tresure": true
+            }
+          }
+        }
+      }
+    },
+    "fish_guardian": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "moreadvancementsmod:aquatic/fish_guardian": true
+            }
+          }
+        }
+      }
+    },
+    "get_gold_block": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "moreadvancementsmod:aquatic/get_gold_block": true
+            }
+          }
+        }
+      }
+    },
+    "get_scute": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "moreadvancementsmod:aquatic/get_scute": true
+            }
+          }
+        }
+      }
+    },
+    "get_sponge": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "moreadvancementsmod:aquatic/get_sponge": true
+            }
+          }
+        }
+      }
+    },
+    "get_turtle_helmet": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "moreadvancementsmod:aquatic/get_turtle_helmet": true
+            }
+          }
+        }
+      }
+    },
+    "guardian_killer": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "moreadvancementsmod:aquatic/guardian_killer": true
+            }
+          }
+        }
+      }
+    },
+    "heartofsea": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "moreadvancementsmod:aquatic/heartofsea": true
+            }
+          }
+        }
+      }
+    },
+    "kill_dolphin": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "moreadvancementsmod:aquatic/kill_dolphin": true
+            }
+          }
+        }
+      }
+    },
+    "kill_elder_guardian": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "moreadvancementsmod:aquatic/kill_elder_guardian": true
+            }
+          }
+        }
+      }
+    },
+    "kill_guardian": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "moreadvancementsmod:aquatic/kill_guardian": true
+            }
+          }
+        }
+      }
+    },
+    "pickle": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "moreadvancementsmod:aquatic/pickle": true
+            }
+          }
+        }
+      }
+    },
+    "sea_power": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "moreadvancementsmod:aquatic/sea_power": true
+            }
+          }
+        }
+      }
+    },
+    "trade_monument_map": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "moreadvancementsmod:aquatic/trade_monument_map": true
+            }
+          }
+        }
+      }
+    },
+    "get_tide_template": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "moreadvancementsmod:aquatic/get_tide_template": true
+            }
+          }
+        }
+      }
+    },
+    "deflect_trident": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "moreadvancementsmod:aquatic/deflect_trident": true
+            }
+          }
+        }
+      }
+    },
+    "find_ocean_ruins": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "moreadvancementsmod:aquatic/find_ocean_ruins": true
+            }
+          }
+        }
+      }
+    },
+    "get_nautilus": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "moreadvancementsmod:aquatic/get_nautilus": true
+            }
+          }
+        }
+      }
+    },
+    "kill_drowned": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "moreadvancementsmod:aquatic/kill_drowned": true
+            }
+          }
+        }
+      }
+    },
+    "loot_ocean_ruins": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "moreadvancementsmod:aquatic/loot_ocean_ruins": true
+            }
+          }
+        }
+      }
+    },
+    "ride_a_boat_with_a_drowned": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "moreadvancementsmod:aquatic/ride_a_boat_with_a_drowned": true
+            }
+          }
+        }
+      }
+    }
+  },
+
+  "requirement": [
+    ["root"],
+    ["biomes"],
+    ["boat"],
+    ["bred_turtles"],
+    ["conduit"],
+    ["dolphin"],
+    ["elder_guardian_killer"],
+    ["find_monument"],
+    ["find_shipwreck"],
+    ["find_tresure"],
+    ["fish_guardian"],
+    ["get_gold_block"],
+    ["get_scute"],
+    ["get_sponge"],
+    ["get_turtle_helmet"],
+    ["guardian_killer"],
+    ["heartofsea"],
+    ["kill_dolphin"],
+    ["kill_elder_guardian"],
+    ["kill_guardian"],
+    ["pickle"],
+    ["sea_power"],
+    ["trade_monument_map"],
+    ["get_tide_template"],
+    ["deflect_trident"],
+    ["find_ocean_ruins"],
+    ["get_nautilus"],
+    ["kill_drowned"],
+    ["loot_ocean_ruins"],
+    ["ride_a_boat_with_a_drowned"]
+  ],
+  "rewards": {
+    "experience": 1000
+  }
+  }

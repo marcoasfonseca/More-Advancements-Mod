@@ -90,7 +90,6 @@
     ["taiga"]
   ],
   "rewards": {
-    "experience": 3500,
-    "function": "moreadvancementsmod:advancements/all_villagers"
+    "experience": 3500
   }
 }

@@ -19,12 +19,24 @@
     "requirement": {
       "trigger": "minecraft:placed_block",
       "conditions": {
-        "block": "minecraft:scaffolding",
-        "location": {
-          "position": {
-            "y": 319
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "position": {
+                "y": {
+                  "min": 319,
+                  "max": 320
+                }
+              },
+              "block": {
+                "blocks": [
+                  "minecraft:scaffolding"
+                ]
+              }
+            }
           }
-        }
+        ]
       }
     }
   }}

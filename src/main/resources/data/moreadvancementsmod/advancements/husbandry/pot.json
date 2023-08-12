@@ -17,9 +17,18 @@
   },
   "criteria": {
     "requirement": {
-      "trigger": "minecraft:placed_block",
+      "trigger": "minecraft:item_used_on_block",
       "conditions": {
-        "block": "minecraft:flower_pot"
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "tag": "minecraft:flower_pots"
+              }
+            }
+          }
+        ]
       }
     }
   }

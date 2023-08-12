@@ -1,0 +1,670 @@
+{
+  "parent": "moreadvancementsmod:hunter/root",
+  "display": {
+    "icon": {
+      "item": "minecraft:hay_block"
+    },
+    "title": {
+      "translate": "advancements.moreadvancementsmod.hunter.all_husbandry_advancements.title"
+    },
+    "description": {
+      "translate": "advancements.moreadvancementsmod.hunter.all_husbandry_advancements.description"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "root": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "minecraft:husbandry/root": true
+            }
+          }
+        }
+      }
+    },
+    "allay_deliver_cake_to_note_block": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "minecraft:husbandry/allay_deliver_cake_to_note_block": true
+            }
+          }
+        }
+      }
+    },
+    "allay_deliver_item_to_player": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "minecraft:husbandry/allay_deliver_item_to_player": true
+            }
+          }
+        }
+      }
+    },
+    "axolotl_in_a_bucket": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "minecraft:husbandry/axolotl_in_a_bucket": true
+            }
+          }
+        }
+      }
+    },
+    "balanced_diet": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "minecraft:husbandry/balanced_diet": true
+            }
+          }
+        }
+      }
+    },
+    "bred_all_animals": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "minecraft:husbandry/bred_all_animals": true
+            }
+          }
+        }
+      }
+    },
+    "breed_an_animal": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "minecraft:husbandry/breed_an_animal": true
+            }
+          }
+        }
+      }
+    },
+    "complete_catalogue": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "minecraft:husbandry/complete_catalogue": true
+            }
+          }
+        }
+      }
+    },
+    "feed_snifflet": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "minecraft:husbandry/feed_snifflet": true
+            }
+          }
+        }
+      }
+    },
+    "fishy_business": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "minecraft:husbandry/fishy_business": true
+            }
+          }
+        }
+      }
+    },
+    "froglights": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "minecraft:husbandry/froglights": true
+            }
+          }
+        }
+      }
+    },
+    "kill_axolotl_target": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "minecraft:husbandry/kill_axolotl_target": true
+            }
+          }
+        }
+      }
+    },
+    "leash_all_frog_variants": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "minecraft:husbandry/leash_all_frog_variants": true
+            }
+          }
+        }
+      }
+    },
+    "make_a_sign_glow": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "minecraft:husbandry/make_a_sign_glow": true
+            }
+          }
+        }
+      }
+    },
+    "obtain_netherite_hoe": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "minecraft:husbandry/obtain_netherite_hoe": true
+            }
+          }
+        }
+      }
+    },
+    "obtain_sniffer_egg": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "minecraft:husbandry/obtain_sniffer_egg": true
+            }
+          }
+        }
+      }
+    },
+    "plant_any_sniffer_seed": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "minecraft:husbandry/plant_any_sniffer_seed": true
+            }
+          }
+        }
+      }
+    },
+    "plant_seed": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "minecraft:husbandry/plant_seed": true
+            }
+          }
+        }
+      }
+    },
+    "ride_a_boat_with_a_goat": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "minecraft:husbandry/ride_a_boat_with_a_goat": true
+            }
+          }
+        }
+      }
+    },
+    "safely_harvest_honey": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "minecraft:husbandry/safely_harvest_honey": true
+            }
+          }
+        }
+      }
+    },
+    "silk_touch_nest": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "minecraft:husbandry/silk_touch_nest": true
+            }
+          }
+        }
+      }
+    },
+    "tactical_fishing": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "minecraft:husbandry/tactical_fishing": true
+            }
+          }
+        }
+      }
+    },
+    "tadpole_in_a_bucket": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "minecraft:husbandry/tadpole_in_a_bucket": true
+            }
+          }
+        }
+      }
+    },
+    "tame_an_animal": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "minecraft:husbandry/tame_an_animal": true
+            }
+          }
+        }
+      }
+    },
+    "wax_off": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "minecraft:husbandry/wax_off": true
+            }
+          }
+        }
+      }
+    },
+    "wax_on": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "minecraft:husbandry/wax_on": true
+            }
+          }
+        }
+      }
+    },
+    "all_axolotl_in_bucket": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "moreadvancementsmod:husbandry/all_axolotl_in_bucket": true
+            }
+          }
+        }
+      }
+    },
+    "all_horns": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "moreadvancementsmod:husbandry/all_horns": true
+            }
+          }
+        }
+      }
+    },
+    "all_wool": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "moreadvancementsmod:husbandry/all_wool": true
+            }
+          }
+        }
+      }
+    },
+    "bake_bread": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "moreadvancementsmod:husbandry/bake_bread": true
+            }
+          }
+        }
+      }
+    },
+    "bake_cake": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "moreadvancementsmod:husbandry/bake_cake": true
+            }
+          }
+        }
+      }
+    },
+    "bee_damage": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "moreadvancementsmod:husbandry/bee_damage": true
+            }
+          }
+        }
+      }
+    },
+    "catch_all_fishes": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "moreadvancementsmod:husbandry/catch_all_fishes": true
+            }
+          }
+        }
+      }
+    },
+    "eat_cake_slices": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "moreadvancementsmod:husbandry/eat_cake_slices": true
+            }
+          }
+        }
+      }
+    },
+    "enchanted_hoe": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "moreadvancementsmod:husbandry/enchanted_hoe": true
+            }
+          }
+        }
+      }
+    },
+    "fish_100_times": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "moreadvancementsmod:husbandry/fish_100_times": true
+            }
+          }
+        }
+      }
+    },
+    "mule": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "moreadvancementsmod:husbandry/mule": true
+            }
+          }
+        }
+      }
+    },
+    "nametag_rabbit": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "moreadvancementsmod:husbandry/nametag_rabbit": true
+            }
+          }
+        }
+      }
+    },
+    "plant_all_seeds": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "moreadvancementsmod:husbandry/plant_all_seeds": true
+            }
+          }
+        }
+      }
+    },
+    "pot": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "moreadvancementsmod:husbandry/pot": true
+            }
+          }
+        }
+      }
+    },
+    "rabbit_feet": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "moreadvancementsmod:husbandry/rabbit_feet": true
+            }
+          }
+        }
+      }
+    },
+    "rabbit_foot": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "moreadvancementsmod:husbandry/rabbit_foot": true
+            }
+          }
+        }
+      }
+    },
+    "shear_sheep": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "moreadvancementsmod:husbandry/shear_sheep": true
+            }
+          }
+        }
+      }
+    },
+    "throw_egg_to_chicken": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "moreadvancementsmod:husbandry/throw_egg_to_chicken": true
+            }
+          }
+        }
+      }
+    },
+    "all_potted_plants": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "moreadvancementsmod:husbandry/all_potted_plants": true
+            }
+          }
+        }
+      }
+    },
+    "nametag_sheep": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "moreadvancementsmod:husbandry/nametag_sheep": true
+            }
+          }
+        }
+      }
+    }
+  },
+
+  "requirement": [
+    ["root"],
+    ["allay_deliver_cake_to_note_block"],
+    ["allay_deliver_item_to_player"],
+    ["axolotl_in_a_bucket"],
+    ["balanced_diet"],
+    ["bred_all_animals"],
+    ["breed_an_animal"],
+    ["complete_catalogue"],
+    ["feed_snifflet"],
+    ["fishy_business"],
+    ["froglights"],
+    ["kill_axolotl_target"],
+    ["leash_all_frog_variants"],
+    ["make_a_sign_glow"],
+    ["obtain_netherite_hoe"],
+    ["obtain_sniffer_egg"],
+    ["plant_any_sniffer_seed"],
+    ["plant_seed"],
+    ["ride_a_boat_with_a_goat"],
+    ["safely_harvest_honey"],
+    ["silk_touch_nest"],
+    ["tactical_fishing"],
+    ["tadpole_in_a_bucket"],
+    ["tame_an_animal"],
+    ["wax_off"],
+    ["wax_on"],
+    ["all_axolotl_in_bucket"],
+    ["all_horns"],
+    ["all_wool"],
+    ["bake_bread"],
+    ["bake_cake"],
+    ["bee_damage"],
+    ["catch_all_fishes"],
+    ["eat_cake_slices"],
+    ["enchanted_hoe"],
+    ["fish_100_times"],
+    ["mule"],
+    ["nametag_rabbit"],
+    ["plant_all_seeds"],
+    ["pot"],
+    ["rabbit_feet"],
+    ["rabbit_foot"],
+    ["shear_sheep"],
+    ["throw_egg_to_chicken"],
+    ["all_potted_plants"],
+    ["nametag_sheep"]
+  ],
+  "rewards": {
+    "experience": 1000
+  }
+  }

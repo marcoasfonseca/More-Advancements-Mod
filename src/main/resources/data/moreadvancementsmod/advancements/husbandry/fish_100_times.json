@@ -42,7 +42,6 @@
     }
   },
   "rewards": {
-    "experience": 1000,
-    "function": "moreadvancementsmod:advancements/fish_100_times"
+    "experience": 1000
   }
 }
