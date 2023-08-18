@@ -19,12 +19,21 @@
     "requirement": {
       "trigger": "minecraft:placed_block",
       "conditions": {
-        "block": "minecraft:sea_pickle",
-        "location": {
-          "fluid": {
-            "tag": "minecraft:water"
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:sea_pickle"
+                ]
+              },
+              "fluid": {
+                "tag": "minecraft:water"
+              }
+            }
           }
-        }
+        ]
       }
     }
   }}

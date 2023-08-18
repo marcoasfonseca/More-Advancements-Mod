@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:beacon"
+    },
+    "title": {
+      "translate": "advancements.moreadvancementsmod.hunter.root.title"
+    },
+    "description": {
+      "translate": "advancements.moreadvancementsmod.hunter.root.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false,
+    "background": "moreadvancementsmod:textures/gui/advancements/backgrounds/hunter.png"
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player"
+          }
+        }
+      }
+    }
+  }   }

@@ -19,7 +19,21 @@
     "requirement": {
       "trigger": "minecraft:placed_block",
       "conditions": {
-        "block": "minecraft:conduit"
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:conduit"
+                ]
+              },
+              "fluid": {
+                "tag": "minecraft:water"
+              }
+            }
+          }
+        ]
       }
     }
   } }

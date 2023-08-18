@@ -1,5 +1,5 @@
 {
-    //Collection
+    // Collection
     "advancements.moreadvancementsmod.collection.root.title": "余音绕梁",
     "advancements.moreadvancementsmod.collection.root.description": "你已经收听了全部的音乐唱片！",
     "advancements.moreadvancementsmod.collection.jukebox.title": "奏乐！",
@@ -65,7 +65,7 @@
     "advancements.moreadvancementsmod.collection.play_disc_ward.title": "绚丽世界！",
     "advancements.moreadvancementsmod.collection.play_disc_ward.description": "播放音乐唱片 - Ward",
 
-    //Aquatic
+    // Aquatic
     "advancements.moreadvancementsmod.aquatic.root.title": "深海迷航",
     "advancements.moreadvancementsmod.aquatic.root.description": "去泡个澡。",
     "advancements.moreadvancementsmod.aquatic.boat.title": "希望风帆！",
@@ -113,7 +113,7 @@
     "advancements.moreadvancementsmod.aquatic.fish_guardian.title": "抛竿引鱼！",
     "advancements.moreadvancementsmod.aquatic.fish_guardian.description": "或许应该换个大点的钓竿",
 
-    //Adventure
+    // Adventure
     "advancements.moreadvancementsmod.adventure.kill_ravager.title": "正义出击！",
     "advancements.moreadvancementsmod.adventure.kill_ravager.description": "击败劫掠兽",
     "advancements.moreadvancementsmod.adventure.kill_iron_golem.title": "拳击比赛！",
@@ -159,7 +159,7 @@
     "advancements.moreadvancementsmod.adventure.elytra_display.title": "炫耀羽翼！",
     "advancements.moreadvancementsmod.adventure.elytra_display.description": "展示你的鞘翅",
 
-    //End
+    // End
     "advancements.moreadvancementsmod.end.dragon_head.title": "我们不需要它！",
     "advancements.moreadvancementsmod.end.dragon_head.description": "获得一个龙头",
     "advancements.moreadvancementsmod.end.shulker_box.title": "这是背包吗？",
@@ -171,7 +171,7 @@
     "advancements.moreadvancementsmod.end.dragon_killer.title": "结束了…一次又一次…",
     "advancements.moreadvancementsmod.end.dragon_killer.description": "击杀20次末影龙",
 
-    //Husbandry
+    // Husbandry
     "advancements.moreadvancementsmod.husbandry.bake_bread.title": "菁英烘焙师！",
     "advancements.moreadvancementsmod.husbandry.bake_bread.description": "使用小麦制作面包",
     "advancements.moreadvancementsmod.husbandry.bake_cake.title": "蛋糕是个谎言",
@@ -205,13 +205,13 @@
     "advancements.moreadvancementsmod.husbandry.fish_100_times.title": "锲而不舍！",
     "advancements.moreadvancementsmod.husbandry.fish_100_times.description": "结果会给你答案！",
 
-    //Story
+    // Story
     "advancements.moreadvancementsmod.story.frost_walk.title": "Let it go!",
     "advancements.moreadvancementsmod.story.frost_walk.description": "穿有冰霜行者的靴子在水上行走",
     "advancements.moreadvancementsmod.story.all_enchanted_books.title": "附魔收藏家！",
     "advancements.moreadvancementsmod.story.all_enchanted_books.description": "获得所有种类的附魔书！",
 
-    //Nether
+    // Nether
     "advancements.moreadvancementsmod.nether.better_armor.title": "上帝下凡！",
     "advancements.moreadvancementsmod.nether.better_armor.description": "附魔一套下界合金盔甲使其拥有所有最高等级魔咒",
     "advancements.moreadvancementsmod.nether.swim_in_lava.title": "安然无恙！",

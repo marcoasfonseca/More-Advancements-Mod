@@ -76,6 +76,5 @@
     ["snowy"]
   ],
   "rewards": {
-    "experience": 1000,
-    "function": "moreadvancementsmod:advancements/raid_in_all_villages"
+    "experience": 1000
   }}

@@ -1,6 +1,6 @@
 {
-    "parent": "item/generated",
-    "textures": {
-        "layer0": "moreadvancementsmod:item/dolphins_grace"
-    }
+	"parent":"item/generated",
+	"textures":{
+		"layer0":"moreadvancementsmod:item/dolphins_grace"
+	}
 }

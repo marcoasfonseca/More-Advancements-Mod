@@ -1,0 +1,502 @@
+{
+  "parent": "moreadvancementsmod:hunter/root",
+  "display": {
+    "icon": {
+      "item": "minecraft:jukebox"
+    },
+    "title": {
+      "translate": "advancements.moreadvancementsmod.hunter.all_collection_advancements.title"
+    },
+    "description": {
+      "translate": "advancements.moreadvancementsmod.hunter.all_collection_advancements.description"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "root": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "moreadvancementsmod:collection/root": true
+            }
+          }
+        }
+      }
+    },
+    "jukebox": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "moreadvancementsmod:collection/jukebox": true
+            }
+          }
+        }
+      }
+    },
+    "obtain_disc_5": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "moreadvancementsmod:collection/obtain_disc_5": true
+            }
+          }
+        }
+      }
+    },
+    "obtain_disc_11": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "moreadvancementsmod:collection/obtain_disc_11": true
+            }
+          }
+        }
+      }
+    },
+    "obtain_disc_13": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "moreadvancementsmod:collection/obtain_disc_13": true
+            }
+          }
+        }
+      }
+    },
+    "obtain_disc_blocks": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "moreadvancementsmod:collection/obtain_disc_blocks": true
+            }
+          }
+        }
+      }
+    },
+    "obtain_disc_cat": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "moreadvancementsmod:collection/obtain_disc_cat": true
+            }
+          }
+        }
+      }
+    },
+    "obtain_disc_chirp": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "moreadvancementsmod:collection/obtain_disc_chirp": true
+            }
+          }
+        }
+      }
+    },
+    "obtain_disc_far": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "moreadvancementsmod:collection/obtain_disc_far": true
+            }
+          }
+        }
+      }
+    },
+    "obtain_disc_mall": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "moreadvancementsmod:collection/obtain_disc_mall": true
+            }
+          }
+        }
+      }
+    },
+    "obtain_disc_mellohi": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "moreadvancementsmod:collection/obtain_disc_mellohi": true
+            }
+          }
+        }
+      }
+    },
+    "obtain_disc_otherside ": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "moreadvancementsmod:collection/obtain_disc_otherside": true
+            }
+          }
+        }
+      }
+    },
+    "obtain_disc_pigstep": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "moreadvancementsmod:collection/obtain_disc_pigstep": true
+            }
+          }
+        }
+      }
+    },
+    "obtain_disc_relic": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "moreadvancementsmod:collection/obtain_disc_relic": true
+            }
+          }
+        }
+      }
+    },
+    "obtain_disc_stal": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "moreadvancementsmod:collection/obtain_disc_stal": true
+            }
+          }
+        }
+      }
+    },
+    "obtain_disc_strad": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "moreadvancementsmod:collection/obtain_disc_strad": true
+            }
+          }
+        }
+      }
+    },
+    "obtain_disc_wait": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "moreadvancementsmod:collection/obtain_disc_wait": true
+            }
+          }
+        }
+      }
+    },
+    "obtain_disc_ward": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "moreadvancementsmod:collection/obtain_disc_ward": true
+            }
+          }
+        }
+      }
+    },
+    "play_disc_5": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "moreadvancementsmod:collection/play_disc_5": true
+            }
+          }
+        }
+      }
+    },
+    "play_disc_11": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "moreadvancementsmod:collection/play_disc_11": true
+            }
+          }
+        }
+      }
+    },
+    "play_disc_13": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "moreadvancementsmod:collection/play_disc_13": true
+            }
+          }
+        }
+      }
+    },
+    "play_disc_blocks": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "moreadvancementsmod:collection/play_disc_blocks": true
+            }
+          }
+        }
+      }
+    },
+    "play_disc_cat": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "moreadvancementsmod:collection/play_disc_cat": true
+            }
+          }
+        }
+      }
+    },
+    "play_disc_chirp": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "moreadvancementsmod:collection/play_disc_chirp": true
+            }
+          }
+        }
+      }
+    },
+    "play_disc_far": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "moreadvancementsmod:collection/play_disc_far": true
+            }
+          }
+        }
+      }
+    },
+    "play_disc_mall": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "moreadvancementsmod:collection/play_disc_mall": true
+            }
+          }
+        }
+      }
+    },
+    "play_disc_mellohi": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "moreadvancementsmod:collection/play_disc_mellohi": true
+            }
+          }
+        }
+      }
+    },
+    "play_disc_otherside": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "moreadvancementsmod:collection/play_disc_otherside": true
+            }
+          }
+        }
+      }
+    },
+    "play_disc_pigstep": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "moreadvancementsmod:collection/play_disc_pigstep": true
+            }
+          }
+        }
+      }
+    },
+    "play_disc_relic": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "moreadvancementsmod:collection/play_disc_relic": true
+            }
+          }
+        }
+      }
+    },
+    "play_disc_stal": {
+    "trigger": "minecraft:tick",
+    "conditions": {
+      "player": {
+        "type_specific": {
+          "type": "player",
+          "advancements": {
+            "moreadvancementsmod:collection/play_disc_stal": true
+          }
+        }
+      }
+    }
+  },
+    "play_disc_strad": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "moreadvancementsmod:collection/play_disc_strad": true
+            }
+          }
+        }
+      }
+    },
+    "play_disc_wait": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "moreadvancementsmod:collection/play_disc_wait": true
+            }
+          }
+        }
+      }
+    },
+    "play_disc_ward": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "moreadvancementsmod:collection/play_disc_ward": true
+            }
+          }
+        }
+      }
+    }
+  },
+
+  "requirement": [
+    ["root"],
+    ["jukebox"],
+    ["obtain_disc_5"],
+    ["obtain_disc_11"],
+    ["obtain_disc_13"],
+    ["obtain_disc_blocks"],
+    ["obtain_disc_cat"],
+    ["obtain_disc_chirp"],
+    ["obtain_disc_far"],
+    ["obtain_disc_mall"],
+    ["obtain_disc_mellohi"],
+    ["obtain_disc_otherside"],
+    ["obtain_disc_pigstep"],
+    ["obtain_disc_relic"],
+    ["obtain_disc_stal"],
+    ["obtain_disc_strad"],
+    ["obtain_disc_wait"],
+    ["obtain_disc_ward"],
+    ["play_disc_5"],
+    ["play_disc_11"],
+    ["play_disc_13"],
+    ["play_disc_blocks"],
+    ["play_disc_cat"],
+    ["play_disc_chirp"],
+    ["play_disc_far"],
+    ["play_disc_mall"],
+    ["play_disc_mellohi"],
+    ["play_disc_otherside"],
+    ["play_disc_pigstep"],
+    ["play_disc_relic"],
+    ["play_disc_stal"],
+    ["play_disc_strad"],
+    ["play_disc_wait"],
+    ["play_disc_ward"]
+  ],
+  "rewards": {
+    "experience": 1000
+  }
+  }

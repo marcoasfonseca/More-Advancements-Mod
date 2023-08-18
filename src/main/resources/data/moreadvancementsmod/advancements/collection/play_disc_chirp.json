@@ -17,19 +17,27 @@
   },
   "criteria": {
     "requirement": {
+      "trigger": "minecraft:item_used_on_block",
       "conditions": {
-        "item": {
-            "items": [
-              "minecraft:music_disc_chirp"
-            ]
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:jukebox"
+                ]
+              }
+            }
           },
-          "location": {
-            "block": {
-              "blocks": [
-                "minecraft:jukebox"
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "items": [
+                "minecraft:music_disc_chirp"
               ]
             }
           }
-      },
-      "trigger": "minecraft:item_used_on_block"
+        ]
+      }
     }   } }

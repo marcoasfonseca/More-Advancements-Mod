@@ -1,6 +1,6 @@
 {
-    "parent": "item/generated",
-    "textures": {
-        "layer0": "moreadvancementsmod:item/ravager_face"
-    }
+	"parent":"item/generated",
+	"textures":{
+		"layer0":"moreadvancementsmod:item/ravager_face"
+	}
 }

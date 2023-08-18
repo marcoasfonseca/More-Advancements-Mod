@@ -35,6 +35,5 @@
     }
   },
   "rewards": {
-    "experience": 1000,
-    "function": "moreadvancementsmod:advancements/guardian_killer"
+    "experience": 1000
   }}

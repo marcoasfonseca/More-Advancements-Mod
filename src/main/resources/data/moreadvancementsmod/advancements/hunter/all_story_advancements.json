@@ -1,0 +1,277 @@
+{
+  "parent": "moreadvancementsmod:hunter/root",
+  "display": {
+    "icon": {
+      "item": "minecraft:grass_block"
+    },
+    "title": {
+      "translate": "advancements.moreadvancementsmod.hunter.all_story_advancements.title"
+    },
+    "description": {
+      "translate": "advancements.moreadvancementsmod.hunter.all_story_advancements.description"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "root": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "minecraft:story/root": true
+            }
+          }
+        }
+      }
+    },
+    "mine_stone": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "minecraft:story/mine_stone": true
+            }
+          }
+        }
+      }
+    },
+    "upgrade_tools": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "minecraft:story/upgrade_tools": true
+            }
+          }
+        }
+      }
+    },
+    "smelt_iron": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "minecraft:story/smelt_iron": true
+            }
+          }
+        }
+      }
+    },
+    "iron_tools": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "minecraft:story/iron_tools": true
+            }
+          }
+        }
+      }
+    },
+    "mine_diamond": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "minecraft:story/mine_diamond": true
+            }
+          }
+        }
+      }
+    },
+    "obtain_armor": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "minecraft:story/obtain_armor": true
+            }
+          }
+        }
+      }
+    },
+    "deflect_arrow": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "minecraft:story/deflect_arrow": true
+            }
+          }
+        }
+      }
+    },
+    "shiny_gear": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "minecraft:story/shiny_gear": true
+            }
+          }
+        }
+      }
+    },
+    "cure_zombie_villager": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "minecraft:story/cure_zombie_villager": true
+            }
+          }
+        }
+      }
+    },
+    "enchant_item": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "minecraft:story/enchant_item": true
+            }
+          }
+        }
+      }
+    },
+    "enter_the_end": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "minecraft:story/enter_the_end": true
+            }
+          }
+        }
+      }
+    },
+    "enter_the_nether": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "minecraft:story/enter_the_nether": true
+            }
+          }
+        }
+      }
+    },
+    "follow_ender_eye": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "minecraft:story/follow_ender_eye": true
+            }
+          }
+        }
+      }
+    },
+    "form_obsidian": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "minecraft:story/form_obsidian": true
+            }
+          }
+        }
+      }
+    },
+    "lava_bucket": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "minecraft:story/lava_bucket": true
+            }
+          }
+        }
+      }
+    },
+    "frost_walk": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "moreadvancementsmod:story/frost_walk": true
+            }
+          }
+        }
+      }
+    },
+    "all_enchanted_books": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "moreadvancementsmod:story/all_enchanted_books": true
+            }
+          }
+        }
+      }
+    }
+  },
+    "requirement": [
+    ["root"],
+    ["mine_stone"],
+    ["upgrade_tools"],
+    ["smelt_iron"],
+    ["iron_tools"],
+    ["mine_diamond"],
+    ["obtain_armor"],
+    ["deflect_arrow"],
+    ["shiny_gear"],
+    ["cure_zombie_villager"],
+    ["enchant_item"],
+    ["enter_the_end"],
+    ["enter_the_nether"],
+    ["follow_ender_eye"],
+    ["form_obsidian"],
+    ["lava_bucket"],
+    ["frost_walk"],
+    ["all_enchanted_books"]
+  ],
+  "rewards": {
+    "experience": 1000
+  }
+  }
