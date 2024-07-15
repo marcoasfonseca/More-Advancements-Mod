@@ -1,0 +1,44 @@
+{
+  "parent": "moreadvancementsmod:end/broken_elytra",
+  "display": {
+    "icon": {
+      "id": "minecraft:elytra",
+      "components": {
+        "minecraft:enchantment_glint_override": true
+      }
+    },
+    "title": {
+      "translate": "advancements.moreadvancementsmod.end.enchanted_elytra.title"
+    },
+    "description": {
+      "translate": "advancements.moreadvancementsmod.end.enchanted_elytra.description"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:elytra"
+            ],
+            "enchantments": [
+              {
+                "enchantment": "minecraft:mending"
+              },
+              {
+                "enchantment": "minecraft:unbreaking",
+                "levels": 3
+              }
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

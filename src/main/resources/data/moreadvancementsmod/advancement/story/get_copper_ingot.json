@@ -1,0 +1,34 @@
+{
+  "parent": "moreadvancementsmod:story/get_furnace",
+  "display": {
+    "icon": {
+      "id": "minecraft:copper_ingot"
+    },
+    "title": {
+      "translate": "advancements.moreadvancementsmod.story.get_copper_ingot.title"
+    },
+    "description": {
+      "translate": "advancements.moreadvancementsmod.story.get_copper_ingot.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:copper_ingot"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 50
+  }}

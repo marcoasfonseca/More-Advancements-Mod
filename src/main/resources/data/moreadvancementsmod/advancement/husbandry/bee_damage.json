@@ -1,0 +1,29 @@
+{
+  "parent": "minecraft:husbandry/silk_touch_nest",
+  "display": {
+    "icon": {
+      "id": "minecraft:dandelion"
+    },
+    "title": {
+      "translate": "advancements.moreadvancementsmod.husbandry.bee_damage.title"
+    },
+    "description": {
+      "translate": "advancements.moreadvancementsmod.husbandry.bee_damage.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "source_entity": {
+            "type": "minecraft:bee"
+          }
+        }
+      }
+    }
+  } }

@@ -1,0 +1,39 @@
+{
+  "parent": "moreadvancementsmod:aquatic/root",
+  "display": {
+    "icon": {
+      "id": "minecraft:sea_pickle"
+    },
+    "title": {
+      "translate": "advancements.moreadvancementsmod.aquatic.ecological_lights.title"
+    },
+    "description": {
+      "translate": "advancements.moreadvancementsmod.aquatic.ecological_lights.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:sea_pickle"
+                ]
+              },
+              "fluid": {
+                "fluids": "#minecraft:water"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }}

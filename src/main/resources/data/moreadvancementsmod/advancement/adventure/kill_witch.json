@@ -1,0 +1,44 @@
+{
+  "parent": "moreadvancementsmod:adventure/find_witch_hut",
+  "display": {
+    "icon": {
+      "id": "minecraft:splash_potion",
+      "components": {
+        "minecraft:potion_contents": {
+          "potion": "minecraft:poison"
+        }
+      }
+    },
+    "title": {
+      "translate": "advancements.moreadvancementsmod.adventure.kill_witch.title"
+    },
+    "description": {
+      "translate": "advancements.moreadvancementsmod.adventure.kill_witch.description"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:witch"
+        },
+        "killing_blow": {
+          "source_entity": {
+            "type": "minecraft:player"
+          },
+          "direct_entity": {
+            "type": "minecraft:potion"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "experience": 500
+  }
+ }

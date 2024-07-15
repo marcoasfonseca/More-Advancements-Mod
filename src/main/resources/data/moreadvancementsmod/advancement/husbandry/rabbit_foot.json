@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:husbandry/root",
+  "display": {
+    "icon": {
+      "id": "minecraft:rabbit_foot"
+    },
+    "title": {
+      "translate": "advancements.moreadvancementsmod.husbandry.rabbit_foot.title"
+    },
+    "description": {
+      "translate": "advancements.moreadvancementsmod.husbandry.rabbit_foot.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:rabbit_foot"
+            ]
+          }
+        ]
+      } }   } ,
+  "rewards": {
+    "experience": 100
+  } }

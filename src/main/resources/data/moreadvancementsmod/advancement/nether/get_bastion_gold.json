@@ -1,0 +1,44 @@
+{
+  "parent": "minecraft:nether/find_bastion",
+  "display": {
+    "icon": {
+      "id": "minecraft:gold_block"
+    },
+    "title": {
+      "translate": "advancements.moreadvancementsmod.nether.get_bastion_gold.title"
+    },
+    "description": {
+      "translate": "advancements.moreadvancementsmod.nether.get_bastion_gold.description"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structures": "minecraft:bastion_remnant"
+              }
+            }
+          }
+        ],
+        "items": [
+          {
+            "items": [
+              "minecraft:gold_block"
+            ], "count": 16
+          }
+        ]
+      }
+    }
+  },"rewards": {
+  "experience": 500
+} }

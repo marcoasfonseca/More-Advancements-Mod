@@ -1,0 +1,29 @@
+{
+  "parent": "moreadvancementsmod:husbandry/bake_bread",
+  "display": {
+    "icon": {
+      "id": "minecraft:furnace"
+    },
+    "title": {
+      "translate": "advancements.moreadvancementsmod.husbandry.bake_cake.title"
+    },
+    "description": {
+      "translate": "advancements.moreadvancementsmod.husbandry.bake_cake.description"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:cake"
+            ]
+          }
+        ]
+      } }   } }

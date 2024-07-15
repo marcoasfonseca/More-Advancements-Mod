@@ -1,0 +1,95 @@
+{
+  "parent": "minecraft:adventure/trade",
+  "display": {
+    "icon": {
+      "id": "minecraft:bell"
+    },
+    "title": {
+      "translate": "advancements.moreadvancementsmod.adventure.all_villagers.title"
+    },
+    "description": {
+      "translate": "advancements.moreadvancementsmod.adventure.all_villagers.description"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "desert": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "villager": {
+          "type": "minecraft:villager",
+          "nbt": "{VillagerData:{type:\"minecraft:desert\"}}"
+        }
+      }
+    },
+    "plains": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "villager": {
+          "type": "minecraft:villager",
+          "nbt": "{VillagerData:{type:\"minecraft:plains\"}}"
+        }
+      }
+    },
+    "jungle": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "villager": {
+          "type": "minecraft:villager",
+          "nbt": "{VillagerData:{type:\"minecraft:jungle\"}}"
+        }
+      }
+    },
+    "savanna": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "villager": {
+          "type": "minecraft:villager",
+          "nbt": "{VillagerData:{type:\"minecraft:savanna\"}}"
+        }
+      }
+    },
+    "snow": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "villager": {
+          "type": "minecraft:villager",
+          "nbt": "{VillagerData:{type:\"minecraft:snow\"}}"
+        }
+      }
+    },
+    "swamp": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "villager": {
+          "type": "minecraft:villager",
+          "nbt": "{VillagerData:{type:\"minecraft:swamp\"}}"
+        }
+      }
+    },
+    "taiga": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "villager": {
+          "type": "minecraft:villager",
+          "nbt": "{VillagerData:{type:\"minecraft:taiga\"}}"
+        }
+      }
+    }
+  },
+  "requirements": [
+    ["desert"],
+    ["plains"],
+    ["jungle"],
+    ["savanna"],
+    ["snow"],
+    ["swamp"],
+    ["taiga"]
+  ],
+  "rewards": {
+    "experience": 3500
+  }
+}

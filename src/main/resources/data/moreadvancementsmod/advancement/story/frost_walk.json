@@ -1,0 +1,50 @@
+{
+  "parent": "minecraft:story/enchant_item",
+  "display": {
+    "icon": {
+      "id": "minecraft:packed_ice"
+    },
+    "title": {
+      "translate": "advancements.moreadvancementsmod.story.frost_walk.title"
+    },
+    "description": {
+      "translate": "advancements.moreadvancementsmod.story.frost_walk.description"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "stepping_on": {
+            "block": {
+              "blocks": [
+                "minecraft:frosted_ice"
+              ]
+            }
+          },
+          "equipment": {
+            "feet": {
+              "items": [
+                "minecraft:chainmail_boots",
+                "minecraft:diamond_boots",
+                "minecraft:golden_boots",
+                "minecraft:iron_boots",
+                "minecraft:leather_boots",
+                "minecraft:netherite_boots"
+              ],
+              "enchantments": [
+                {
+                  "enchantment": "minecraft:frost_walker"
+                }
+              ]
+            }
+          }
+        }
+      }
+    }
+  } }

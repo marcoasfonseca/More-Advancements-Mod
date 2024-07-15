@@ -1,0 +1,43 @@
+{
+  "parent": "moreadvancementsmod:collection/obtain_disc_relic",
+  "display": {
+    "icon": {
+      "id": "minecraft:music_disc_relic"
+    },
+    "title": {
+      "translate": "advancements.moreadvancementsmod.collection.play_disc_relic.title"
+    },
+    "description": {
+      "translate": "advancements.moreadvancementsmod.collection.play_disc_relic.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:jukebox"
+                ]
+              }
+            }
+          },
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "items": [
+                "minecraft:music_disc_relic"
+              ]
+            }
+          }
+        ]
+      }
+    }   } }

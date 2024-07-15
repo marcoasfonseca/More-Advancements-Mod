@@ -1,0 +1,329 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:jukebox"
+    },
+    "title": {
+      "translate": "advancements.moreadvancementsmod.collection.root.title"
+    },
+    "description": {
+      "translate": "advancements.moreadvancementsmod.collection.root.description"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true,
+    "background": "moreadvancementsmod:textures/gui/advancements/backgrounds/collection.png"
+  },
+  "criteria": {
+    "mellohi": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": { "block": { "blocks": [ "minecraft:jukebox"] } }
+          },
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": { "items": [ "minecraft:music_disc_mellohi" ] }
+          }
+        ]
+      }
+  },
+    "5": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": { "block": { "blocks": [ "minecraft:jukebox"] } }
+          },
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": { "items": [ "minecraft:music_disc_5" ] }
+          }
+        ]
+      }
+    },
+    "11": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": { "block": { "blocks": [ "minecraft:jukebox"] } }
+          },
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": { "items": [ "minecraft:music_disc_11" ] }
+          }
+        ]
+      }
+    },
+    "13": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": { "block": { "blocks": [ "minecraft:jukebox"] } }
+          },
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": { "items": [ "minecraft:music_disc_13" ] }
+          }
+        ]
+      }
+    },
+    "blocks": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": { "block": { "blocks": [ "minecraft:jukebox"] } }
+          },
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": { "items": [ "minecraft:music_disc_blocks" ] }
+          }
+        ]
+      }
+    },
+    "cat": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": { "block": { "blocks": [ "minecraft:jukebox"] } }
+          },
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": { "items": [ "minecraft:music_disc_cat" ] }
+          }
+        ]
+      }
+    },
+    "chirp": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": { "block": { "blocks": [ "minecraft:jukebox"] } }
+          },
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": { "items": [ "minecraft:music_disc_chirp" ] }
+          }
+        ]
+      }
+    },
+    "far": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": { "block": { "blocks": [ "minecraft:jukebox"] } }
+          },
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": { "items": [ "minecraft:music_disc_far" ] }
+          }
+        ]
+      }
+    },
+    "mall": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": { "block": { "blocks": [ "minecraft:jukebox"] } }
+          },
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": { "items": [ "minecraft:music_disc_mall" ] }
+          }
+        ]
+      }
+    },
+    "otherside": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": { "block": { "blocks": [ "minecraft:jukebox"] } }
+          },
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": { "items": [ "minecraft:music_disc_otherside" ] }
+          }
+        ]
+      }
+    },
+    "pigstep": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": { "block": { "blocks": [ "minecraft:jukebox"] } }
+          },
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": { "items": [ "minecraft:music_disc_pigstep" ] }
+          }
+        ]
+      }
+    },
+    "stal": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": { "block": { "blocks": [ "minecraft:jukebox"] } }
+          },
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": { "items": [ "minecraft:music_disc_stal" ] }
+          }
+        ]
+      }
+    },
+    "strad": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": { "block": { "blocks": [ "minecraft:jukebox"] } }
+          },
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": { "items": [ "minecraft:music_disc_strad" ] }
+          }
+        ]
+      }
+    },
+    "wait": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": { "block": { "blocks": [ "minecraft:jukebox"] } }
+          },
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": { "items": [ "minecraft:music_disc_wait" ] }
+          }
+        ]
+      }
+    },
+    "ward": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": { "block": { "blocks": [ "minecraft:jukebox"] } }
+          },
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": { "items": [ "minecraft:music_disc_ward" ] }
+          }
+        ]
+      }
+    },
+    "relic": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": { "block": { "blocks": [ "minecraft:jukebox"] } }
+          },
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": { "items": [ "minecraft:music_disc_relic" ] }
+          }
+        ]
+      }
+    },
+    "creator": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": { "block": { "blocks": [ "minecraft:jukebox"] } }
+          },
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": { "items": [ "minecraft:music_disc_creator" ] }
+          }
+        ]
+      }
+    },
+    "creator_music_box": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": { "block": { "blocks": [ "minecraft:jukebox"] } }
+          },
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": { "items": [ "minecraft:music_disc_creator_music_box" ] }
+          }
+        ]
+      }
+    },
+    "precipice": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": { "block": { "blocks": [ "minecraft:jukebox"] } }
+          },
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": { "items": [ "minecraft:music_disc_precipice" ] }
+          }
+        ]
+      }
+    }
+  },
+  "requirement": [
+    "mellohi",
+    "5",
+    "11",
+    "13",
+    "blocks",
+    "cat",
+    "chirp",
+    "far",
+    "mall",
+    "otherside",
+    "pigstep",
+    "stal",
+    "strad",
+    "wait",
+    "ward",
+    "relic",
+    "creator",
+    "creator_music_box",
+    "precipice"
+  ],
+  "rewards": {
+    "experience": 1000
+  }
+}

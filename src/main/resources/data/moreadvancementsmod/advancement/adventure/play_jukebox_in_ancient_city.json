@@ -1,0 +1,42 @@
+{
+  "parent": "moreadvancementsmod:adventure/ancient_city",
+  "display": {
+    "icon": {
+      "id": "minecraft:jukebox"
+    },
+    "title": {
+      "translate": "advancements.moreadvancementsmod.adventure.play_jukebox_in_ancient_city.title"
+    },
+    "description": {
+      "translate": "advancements.moreadvancementsmod.adventure.play_jukebox_in_ancient_city.description"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "structures": "minecraft:ancient_city",
+              "block": {
+                "blocks": "minecraft:jukebox"
+              }
+            }
+          },
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "items": "minecraft:music_disc_5"
+            }
+          }
+        ]
+      }
+    }
+  }
+}

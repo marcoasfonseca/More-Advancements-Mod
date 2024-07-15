@@ -1,0 +1,28 @@
+{
+  "parent": "moreadvancementsmod:aquatic/find_monument",
+  "display": {
+    "icon": {
+      "id": "minecraft:fishing_rod"
+    },
+    "title": {
+      "translate": "advancements.moreadvancementsmod.aquatic.fish_guardian.title"
+    },
+    "description": {
+      "translate": "advancements.moreadvancementsmod.aquatic.fish_guardian.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:fishing_rod_hooked",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:guardian"
+        }
+      }
+    }
+  }
+}

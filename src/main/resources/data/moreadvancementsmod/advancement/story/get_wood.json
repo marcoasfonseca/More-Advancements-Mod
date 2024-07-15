@@ -1,0 +1,30 @@
+{
+  "parent": "moreadvancementsmod:story/root",
+  "display": {
+    "icon": {
+      "id": "minecraft:oak_log"
+    },
+    "title": {
+      "translate": "advancements.moreadvancementsmod.story.get_wood.title"
+    },
+    "description": {
+      "translate": "advancements.moreadvancementsmod.story.get_wood.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "#minecraft:logs"
+          }
+        ]
+      }
+    }
+  }
+}

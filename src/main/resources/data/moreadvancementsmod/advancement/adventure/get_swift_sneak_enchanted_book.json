@@ -1,0 +1,39 @@
+{
+  "parent": "moreadvancementsmod:adventure/ancient_city_loot",
+  "display": {
+    "icon": {
+      "id": "minecraft:enchanted_book"
+    },
+    "title": {
+      "translate": "advancements.moreadvancementsmod.adventure.get_swift_sneak_enchanted_book.title"
+    },
+    "description": {
+      "translate": "advancements.moreadvancementsmod.adventure.get_swift_sneak_enchanted_book.description"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:enchanted_book",
+            "components": {
+              "minecraft:stored_enchantments": {
+                "levels": {
+                  "minecraft:swift_sneak": 3
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 100
+  }}

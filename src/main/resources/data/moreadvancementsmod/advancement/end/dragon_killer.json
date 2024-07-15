@@ -1,0 +1,42 @@
+{
+  "parent": "minecraft:end/respawn_dragon",
+  "display": {
+    "icon": {
+      "id": "minecraft:dragon_egg",
+      "components": {
+        "minecraft:enchantment_glint_override": true
+      }
+    },
+    "title": {
+      "translate": "advancements.moreadvancementsmod.end.dragon_killer.title"
+    },
+    "description": {
+      "translate": "advancements.moreadvancementsmod.end.dragon_killer.description"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "stats": [
+              {
+                "type": "minecraft:killed",
+                "stat": "minecraft:ender_dragon",
+                "value": 20
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "experience": 1000
+  }}

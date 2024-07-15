@@ -1,0 +1,89 @@
+{
+  "parent": "moreadvancementsmod:story/get_wooden_pickaxe",
+  "display": {
+    "icon": {
+      "id": "minecraft:wooden_shovel"
+    },
+    "title": {
+      "translate": "advancements.moreadvancementsmod.story.get_wooden_tools.title"
+    },
+    "description": {
+      "translate": "advancements.moreadvancementsmod.story.get_wooden_tools.description"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "wooden_pickaxe": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:wooden_pickaxe"
+            ]
+          }
+        ]
+      }
+    },
+    "wooden_shovel": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:wooden_shovel"
+            ]
+          }
+        ]
+      }
+    },
+    "wooden_axe": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:wooden_axe"
+            ]
+          }
+        ]
+      }
+    },
+    "wooden_hoe": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:wooden_hoe"
+            ]
+          }
+        ]
+      }
+    },
+    "wooden_sword": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:wooden_sword"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirement": [
+    ["wooden_pickaxe"],
+    ["wooden_shovel"],
+    ["wooden_axe"],
+    ["wooden_hoe"],
+    ["wooden_sword"]
+  ],
+  "rewards": {
+    "experience": 50
+  }}

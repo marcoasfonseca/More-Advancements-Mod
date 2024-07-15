@@ -1,0 +1,170 @@
+{
+  "parent": "moreadvancementsmod:husbandry/tame_donkey",
+  "display": {
+    "icon": {
+      "id": "minecraft:chest"
+    },
+    "title": {
+      "translate": "advancements.moreadvancementsmod.husbandry.donkey_chest.title"
+    },
+    "description": {
+      "translate": "advancements.moreadvancementsmod.husbandry.donkey_chest.description"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:any_of",
+            "terms": [
+              {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "type": "minecraft:mule",
+                  "slots": {
+                    "horse.0": {
+                      "items": "#minecraft:logs",
+                      "count": 64
+                    },
+                    "horse.1": {
+                      "items": "#minecraft:logs",
+                      "count": 64
+                    },
+                    "horse.2": {
+                      "items": "#minecraft:logs",
+                      "count": 64
+                    },
+                    "horse.3": {
+                      "items": "#minecraft:logs",
+                      "count": 64
+                    },
+                    "horse.4": {
+                      "items": "#minecraft:logs",
+                      "count": 64
+                    },
+                    "horse.5": {
+                      "items": "#minecraft:logs",
+                      "count": 64
+                    },
+                    "horse.6": {
+                      "items": "#minecraft:logs",
+                      "count": 64
+                    },
+                    "horse.7": {
+                      "items": "#minecraft:logs",
+                      "count": 64
+                    },
+                    "horse.8": {
+                      "items": "#minecraft:logs",
+                      "count": 64
+                    },
+                    "horse.9": {
+                      "items": "#minecraft:logs",
+                      "count": 64
+                    },
+                    "horse.10": {
+                      "items": "#minecraft:logs",
+                      "count": 64
+                    },
+                    "horse.11": {
+                      "items": "#minecraft:logs",
+                      "count": 64
+                    },
+                    "horse.12": {
+                      "items": "#minecraft:logs",
+                      "count": 64
+                    },
+                    "horse.13": {
+                      "items": "#minecraft:logs",
+                      "count": 64
+                    },
+                    "horse.14": {
+                      "items": "#minecraft:logs",
+                      "count": 64
+                    }
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "type": "minecraft:donkey",
+                  "slots": {
+                    "horse.0": {
+                      "items": "#minecraft:logs",
+                      "count": 64
+                    },
+                    "horse.1": {
+                      "items": "#minecraft:logs",
+                      "count": 64
+                    },
+                    "horse.2": {
+                      "items": "#minecraft:logs",
+                      "count": 64
+                    },
+                    "horse.3": {
+                      "items": "#minecraft:logs",
+                      "count": 64
+                    },
+                    "horse.4": {
+                      "items": "#minecraft:logs",
+                      "count": 64
+                    },
+                    "horse.5": {
+                      "items": "#minecraft:logs",
+                      "count": 64
+                    },
+                    "horse.6": {
+                      "items": "#minecraft:logs",
+                      "count": 64
+                    },
+                    "horse.7": {
+                      "items": "#minecraft:logs",
+                      "count": 64
+                    },
+                    "horse.8": {
+                      "items": "#minecraft:logs",
+                      "count": 64
+                    },
+                    "horse.9": {
+                      "items": "#minecraft:logs",
+                      "count": 64
+                    },
+                    "horse.10": {
+                      "items": "#minecraft:logs",
+                      "count": 64
+                    },
+                    "horse.11": {
+                      "items": "#minecraft:logs",
+                      "count": 64
+                    },
+                    "horse.12": {
+                      "items": "#minecraft:logs",
+                      "count": 64
+                    },
+                    "horse.13": {
+                      "items": "#minecraft:logs",
+                      "count": 64
+                    },
+                    "horse.14": {
+                      "items": "#minecraft:logs",
+                      "count": 64
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

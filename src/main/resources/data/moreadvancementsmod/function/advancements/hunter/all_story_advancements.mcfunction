@@ -1,0 +1,1 @@
+particle electric_spark ~ ~1 ~ 1 0 1 0.1 500

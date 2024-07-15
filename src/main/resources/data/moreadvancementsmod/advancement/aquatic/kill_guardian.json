@@ -1,0 +1,32 @@
+{
+  "parent": "moreadvancementsmod:aquatic/find_monument",
+  "display": {
+    "icon": {
+      "id": "minecraft:guardian_spawn_egg"
+    },
+    "title": {
+      "translate": "advancements.moreadvancementsmod.aquatic.kill_guardian.title"
+    },
+    "description": {
+      "translate": "advancements.moreadvancementsmod.aquatic.kill_guardian.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "requirement": {
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:guardian"
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:player_killed_entity"
+    }}}

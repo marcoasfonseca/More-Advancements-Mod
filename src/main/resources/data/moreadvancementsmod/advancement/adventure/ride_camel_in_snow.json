@@ -1,0 +1,82 @@
+{
+  "parent": "moreadvancementsmod:adventure/ride_camel",
+  "display": {
+    "icon": {
+      "id": "minecraft:cactus"
+    },
+    "title": {
+      "translate": "advancements.moreadvancementsmod.adventure.ride_camel_in_snow.title"
+    },
+    "description": {
+      "translate": "advancements.moreadvancementsmod.adventure.ride_camel_in_snow.description"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:any_of",
+            "terms": [
+              {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "location": {
+                    "biomes": "minecraft:snowy_beach"
+                  },
+                  "vehicle": {
+                    "type": "minecraft:camel"
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "location": {
+                    "biomes": "minecraft:snowy_plains"
+                  },
+                  "vehicle": {
+                    "type": "minecraft:camel"
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "location": {
+                    "biomes": "minecraft:snowy_slopes"
+                  },
+                  "vehicle": {
+                    "type": "minecraft:camel"
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "location": {
+                    "biomes": "minecraft:snowy_taiga"
+                  },
+                  "vehicle": {
+                    "type": "minecraft:camel"
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 50
+  }}

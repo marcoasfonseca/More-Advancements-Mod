@@ -1,0 +1,150 @@
+{
+  "parent": "minecraft:husbandry/tame_an_animal",
+  "display": {
+    "icon": {
+      "id": "minecraft:hay_block"
+    },
+    "title": {
+      "translate": "advancements.moreadvancementsmod.husbandry.all_horses.title"
+    },
+    "description": {
+      "translate": "advancements.moreadvancementsmod.husbandry.all_horses.description"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "white": {
+      "trigger": "minecraft:tame_animal",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "minecraft:horse",
+                "variant": "white"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "creamy": {
+      "trigger": "minecraft:tame_animal",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "minecraft:horse",
+                "variant": "creamy"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "chestnut": {
+      "trigger": "minecraft:tame_animal",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "minecraft:horse",
+                "variant": "chestnut"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "brown": {
+      "trigger": "minecraft:tame_animal",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "minecraft:horse",
+                "variant": "brown"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "black": {
+      "trigger": "minecraft:tame_animal",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "minecraft:horse",
+                "variant": "black"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "gray": {
+      "trigger": "minecraft:tame_animal",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "minecraft:horse",
+                "variant": "gray"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "dark_brown": {
+      "trigger": "minecraft:tame_animal",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "minecraft:horse",
+                "variant": "dark_brown"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirement": [
+    ["white"],
+    ["creamy"],
+    ["chestnut"],
+    ["brown"],
+    ["black"],
+    ["gray"],
+    ["dark_brown"]
+  ],
+  "rewards": {
+    "experience": 700
+  } }

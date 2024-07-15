@@ -1,0 +1,241 @@
+{
+  "parent": "minecraft:nether/return_to_sender",
+  "display": {
+    "icon": {
+      "id": "minecraft:ghast_spawn_egg"
+    },
+    "title": {
+      "translate": "advancements.moreadvancementsmod.nether.ghast_killer.title"
+    },
+    "description": {
+      "translate": "advancements.moreadvancementsmod.nether.ghast_killer.description"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "melee": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:any_of",
+            "terms": [
+              {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "equipment": {
+                    "mainhand": {
+                      "items": "minecraft:mace"
+                    }
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "equipment": {
+                    "mainhand": {
+                      "items": "#minecraft:axes"
+                    }
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "equipment": {
+                    "mainhand": {
+                      "items": "#minecraft:swords"
+                    }
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "equipment": {
+                    "mainhand": {
+                      "items": "#minecraft:hoes"
+                    }
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "equipment": {
+                    "mainhand": {
+                      "items": "#minecraft:pickaxes"
+                    }
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "equipment": {
+                    "mainhand": {
+                      "items": "#minecraft:shovels"
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "entity": {
+          "type": "minecraft:ghast"
+        },
+        "killing_blow": {
+          "tags": [
+            {
+              "id": "minecraft:is_player_attack",
+              "expected": true
+            }
+          ]
+        }
+      }
+    },
+  "fireball": {
+    "trigger": "minecraft:player_killed_entity",
+    "conditions": {
+      "entity": [
+        {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "type": "minecraft:ghast"
+          }
+        }
+      ],
+      "killing_blow": {
+        "direct_entity": {
+          "type": "minecraft:fireball"
+        },
+        "tags": [
+          {
+            "expected": true,
+            "id": "minecraft:is_projectile"
+          }
+        ]
+      }
+    }
+  },
+  "arrow": {
+    "trigger": "minecraft:player_killed_entity",
+    "conditions": {
+      "entity": [
+        {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "type": "minecraft:ghast"
+          }
+        }
+      ],
+      "killing_blow": {
+        "direct_entity": {
+          "type": "#minecraft:arrows"
+        },
+        "tags": [
+          {
+            "expected": true,
+            "id": "minecraft:is_projectile"
+          }
+        ]
+      }
+    }
+  },
+  "trident": {
+    "trigger": "minecraft:player_killed_entity",
+    "conditions": {
+      "entity": {
+        "type": "minecraft:ghast"
+      },
+      "killing_blow": {
+        "tags": [
+          {
+            "id": "minecraft:is_projectile",
+            "expected": true
+          }
+        ],
+        "source_entity": {
+          "type": "minecraft:player"
+        },
+        "direct_entity": {
+          "type": "minecraft:trident"
+        }
+      }
+    }
+  },
+  "lightning": {
+    "trigger": "minecraft:player_killed_entity",
+    "conditions": {
+      "entity": {
+        "type": "minecraft:ghast"
+      },
+      "killing_blow": {
+        "tags": [
+          {
+            "id": "minecraft:is_lightning",
+            "expected": true
+          }
+        ]
+      }
+    }
+  },
+  "explosion": {
+    "trigger": "minecraft:player_killed_entity",
+    "conditions": {
+      "entity": {
+        "type": "minecraft:ghast"
+      },
+      "killing_blow": {
+        "tags": [
+          {
+            "id": "minecraft:is_explosion",
+            "expected": true
+          }
+        ]
+      }
+    }
+  },
+  "potion": {
+    "trigger": "minecraft:player_killed_entity",
+    "conditions": {
+      "entity": {
+        "type": "minecraft:ghast"
+      },
+      "killing_blow": {
+        "source_entity": {
+          "type": "minecraft:player"
+        },
+        "direct_entity": {
+          "type": "minecraft:potion"
+        }
+      }
+    }
+  }
+},
+  "requirements": [
+    ["melee"],
+    ["fireball"],
+    ["arrow"],
+    ["trident"],
+    ["lightning"],
+    ["explosion"],
+    ["potion"]
+  ],
+  "rewards": {
+    "experience": 1000
+  }
+}

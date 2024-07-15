@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:water_bucket"
+    },
+    "title": {
+      "translate": "advancements.moreadvancementsmod.aquatic.root.title"
+    },
+    "description": {
+      "translate": "advancements.moreadvancementsmod.aquatic.root.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false,
+    "background": "moreadvancementsmod:textures/gui/advancements/backgrounds/aquatic.png"
+  },
+  "criteria": {
+    "requirement": {
+      "conditions": {
+        "block": "minecraft:water"
+      },
+      "trigger": "minecraft:enter_block"
+    }
+       }   }

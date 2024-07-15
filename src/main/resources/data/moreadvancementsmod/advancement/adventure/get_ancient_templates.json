@@ -1,0 +1,50 @@
+{
+  "parent": "moreadvancementsmod:adventure/ancient_city_loot",
+  "display": {
+    "icon": {
+      "id": "minecraft:silence_armor_trim_smithing_template"
+    },
+    "title": {
+      "translate": "advancements.moreadvancementsmod.adventure.get_ancient_templates.title"
+    },
+    "description": {
+      "translate": "advancements.moreadvancementsmod.adventure.get_ancient_templates.description"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "silence": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:silence_armor_trim_smithing_template"
+            ]
+          }
+        ]
+      }
+    },
+    "ward": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:ward_armor_trim_smithing_template"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirement": [
+    ["silence"],
+    ["ward"]
+  ],
+  "rewards": {
+    "experience": 100
+  }}

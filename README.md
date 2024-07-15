@@ -1,5 +1,5 @@
 # More-Advancements-Mod
-1.19.2
+1.20.3
 
  
 Mod that adds new advancements to challenge you through the game and rewards you for your in game achivements as it should be in the base game. 

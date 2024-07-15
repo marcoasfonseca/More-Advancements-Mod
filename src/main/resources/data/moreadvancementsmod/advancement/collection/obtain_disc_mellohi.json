@@ -1,0 +1,29 @@
+{
+  "parent": "moreadvancementsmod:collection/jukebox",
+  "display": {
+    "icon": {
+      "id": "minecraft:music_disc_mellohi"
+    },
+    "title": {
+      "translate": "advancements.moreadvancementsmod.collection.obtain_disc_mellohi.title"
+    },
+    "description": {
+      "translate": "advancements.moreadvancementsmod.collection.obtain_disc_mellohi.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:music_disc_mellohi"
+            ]
+          }
+        ]
+      }  }   } }

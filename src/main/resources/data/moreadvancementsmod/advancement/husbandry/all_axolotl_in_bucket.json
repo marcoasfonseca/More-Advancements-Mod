@@ -1,0 +1,87 @@
+{
+  "parent": "minecraft:husbandry/axolotl_in_a_bucket",
+  "display": {
+    "icon": {
+      "id": "minecraft:axolotl_bucket",
+      "components": {
+        "minecraft:enchantment_glint_override": true
+      }
+    },
+    "title": {
+      "translate": "advancements.moreadvancementsmod.husbandry.all_axolotl_in_a_bucket.title"
+    },
+    "description": {
+      "translate": "advancements.moreadvancementsmod.husbandry.all_axolotl_in_a_bucket.description"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "leucistic": {
+      "trigger": "minecraft:filled_bucket",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:axolotl_bucket"
+          ],
+          "nbt": "{Variant:0}"
+        }
+      }
+    },
+    "wild": {
+      "trigger": "minecraft:filled_bucket",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:axolotl_bucket"
+          ],
+          "nbt": "{Variant:1}"
+        }
+      }
+    },
+    "gold": {
+      "trigger": "minecraft:filled_bucket",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:axolotl_bucket"
+          ],
+          "nbt": "{Variant:2}"
+        }
+      }
+    },
+    "cyan": {
+      "trigger": "minecraft:filled_bucket",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:axolotl_bucket"
+          ],
+          "nbt": "{Variant:3}"
+        }
+      }
+    },
+    "blue": {
+      "trigger": "minecraft:filled_bucket",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:axolotl_bucket"
+          ],
+          "nbt": "{Variant:4}"
+        }
+      }
+    }
+  } ,
+  "requirement": [
+    ["leucistic"],
+    ["wild"],
+    ["gold"],
+    ["cyan"],
+    ["blue"]
+  ],
+  "rewards": {
+    "experience": 1000
+  } }

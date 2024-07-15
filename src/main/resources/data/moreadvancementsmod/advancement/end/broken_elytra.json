@@ -1,0 +1,33 @@
+{
+  "parent": "minecraft:end/elytra",
+  "display": {
+    "icon": {
+      "id": "minecraft:elytra",
+      "components": {
+        "minecraft:max_damage": 1
+      }
+    },
+    "title": {
+      "translate": "advancements.moreadvancementsmod.end.broken_elytra.title"
+    },
+    "description": {
+      "translate": "advancements.moreadvancementsmod.end.broken_elytra.description"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:elytra"
+            ],
+            "durability": 1
+          }
+        ]
+      }  }   } }

@@ -1,0 +1,36 @@
+{
+  "parent": "moreadvancementsmod:adventure/ancient_city",
+  "display": {
+    "icon": {
+      "id": "minecraft:recovery_compass"
+    },
+    "title": {
+      "translate": "advancements.moreadvancementsmod.adventure.kill_warden.title"
+    },
+    "description": {
+      "translate": "advancements.moreadvancementsmod.adventure.kill_warden.description"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "requirement": {
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:warden"
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:player_killed_entity"
+    }},
+  "rewards": {
+    "experience": 100
+  }
+  }

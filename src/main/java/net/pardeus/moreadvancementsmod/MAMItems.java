@@ -18,11 +18,11 @@ public class MAMItems extends Items {
 
     public static void register() {
 
-        Registry.register(Registries.ITEM, new Identifier("moreadvancementsmod", "guardian_face"), GUARDIAN_FACE);
-        Registry.register(Registries.ITEM, new Identifier("moreadvancementsmod", "elder_guardian_face"), ELDER_GUARDIAN_FACE);
-        Registry.register(Registries.ITEM, new Identifier("moreadvancementsmod", "dolphins_grace"), DOLPHINS_GRACE);
-        Registry.register(Registries.ITEM, new Identifier("moreadvancementsmod", "conduit_icon"), CONDUIT_ICON);
-        Registry.register(Registries.ITEM, new Identifier("moreadvancementsmod", "ravager_face"), RAVAGER_FACE);
-        Registry.register(Registries.ITEM, new Identifier("moreadvancementsmod", "hero_icon"), HERO_ICON);
+        Registry.register(Registries.ITEM, Identifier.of("moreadvancementsmod", "guardian_face"), GUARDIAN_FACE);
+        Registry.register(Registries.ITEM, Identifier.of("moreadvancementsmod", "elder_guardian_face"), ELDER_GUARDIAN_FACE);
+        Registry.register(Registries.ITEM, Identifier.of("moreadvancementsmod", "dolphins_grace"), DOLPHINS_GRACE);
+        Registry.register(Registries.ITEM, Identifier.of("moreadvancementsmod", "conduit_icon"), CONDUIT_ICON);
+        Registry.register(Registries.ITEM, Identifier.of("moreadvancementsmod", "ravager_face"), RAVAGER_FACE);
+        Registry.register(Registries.ITEM, Identifier.of("moreadvancementsmod", "hero_icon"), HERO_ICON);
     }
 }

@@ -1,0 +1,305 @@
+{
+  "parent": "minecraft:adventure/salvage_sherd",
+  "display": {
+    "icon": {
+      "id": "minecraft:prize_pottery_sherd"
+    },
+    "title": {
+      "translate": "advancements.moreadvancementsmod.adventure.all_pottery_sherds.title"
+    },
+    "description": {
+      "translate": "advancements.moreadvancementsmod.adventure.all_pottery_sherds.description"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "angler": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:angler_pottery_sherd"
+            ]
+          }
+        ]
+      }  },
+    "archer": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:archer_pottery_sherd"
+            ]
+          }
+        ]
+      }  },
+    "arms": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:arms_up_pottery_sherd"
+            ]
+          }
+        ]
+      }  },
+    "blade": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:blade_pottery_sherd"
+            ]
+          }
+        ]
+      }  },
+    "brewer": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:brewer_pottery_sherd"
+            ]
+          }
+        ]
+      }  },
+    "burn": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:burn_pottery_sherd"
+            ]
+          }
+        ]
+      }  },
+    "danger": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:danger_pottery_sherd"
+            ]
+          }
+        ]
+      }  },
+    "explorer": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:explorer_pottery_sherd"
+            ]
+          }
+        ]
+      }  },
+    "friend": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:friend_pottery_sherd"
+            ]
+          }
+        ]
+      }  },
+    "heart": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:heart_pottery_sherd"
+            ]
+          }
+        ]
+      }  },
+    "heartbreak": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:heartbreak_pottery_sherd"
+            ]
+          }
+        ]
+      }  },
+    "howl": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:howl_pottery_sherd"
+            ]
+          }
+        ]
+      }  },
+    "miner": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:miner_pottery_sherd"
+            ]
+          }
+        ]
+      }  },
+    "mourner": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:mourner_pottery_sherd"
+            ]
+          }
+        ]
+      }  },
+    "plenty": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:plenty_pottery_sherd"
+            ]
+          }
+        ]
+      }  },
+    "prize": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:prize_pottery_sherd"
+            ]
+          }
+        ]
+      }  },
+    "sheaf": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:sheaf_pottery_sherd"
+            ]
+          }
+        ]
+      }  },
+    "shelter": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:shelter_pottery_sherd"
+            ]
+          }
+        ]
+      }  },
+    "skull": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:skull_pottery_sherd"
+            ]
+          }
+        ]
+      }  },
+    "snort": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:snort_pottery_sherd"
+            ]
+          }
+        ]
+      }
+    },
+    "scrape": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:scrape_pottery_sherd"
+            ]
+          }
+        ]
+      }
+    },
+    "guster": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:guster_pottery_sherd"
+            ]
+          }
+        ]
+      }
+    },
+    "flow": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:flow_pottery_sherd"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirement": [
+    ["angler"],
+    ["archer"],
+    ["arms"],
+    ["blade"],
+    ["brewer"],
+    ["burn"],
+    ["danger"],
+    ["flow"],
+    ["explorer"],
+    ["friend"],
+    ["guster"],
+    ["heart"],
+    ["heartbreak"],
+    ["howl"],
+    ["miner"],
+    ["mourner"],
+    ["plenty"],
+    ["prize"],
+    ["scrape"],
+    ["sheaf"],
+    ["shelter"],
+    ["skull"],
+    ["snort"]
+  ],
+  "rewards": {
+    "experience": 1000
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "parent": "moreadvancementsmod:adventure/find_mansion",
+  "display": {
+    "icon": {
+      "id": "minecraft:totem_of_undying",
+      "components": {
+        "minecraft:enchantment_glint_override": true
+      }
+    },
+    "title": {
+      "translate": "advancements.moreadvancementsmod.adventure.kill_evoker.title"
+    },
+    "description": {
+      "translate": "advancements.moreadvancementsmod.adventure.kill_evoker.description"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:evoker",
+          "location": {
+            "structure": "minecraft:mansion"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "experience": 500
+  }
+ }

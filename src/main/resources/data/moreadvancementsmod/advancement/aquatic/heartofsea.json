@@ -1,0 +1,29 @@
+{
+  "parent": "moreadvancementsmod:aquatic/find_treasure",
+  "display": {
+    "icon": {
+      "id": "minecraft:heart_of_the_sea"
+    },
+    "title": {
+      "translate": "advancements.moreadvancementsmod.aquatic.heartofsea.title"
+    },
+    "description": {
+      "translate": "advancements.moreadvancementsmod.aquatic.heartofsea.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:heart_of_the_sea"
+            ]
+          }
+        ]
+      }  }   } }

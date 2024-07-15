@@ -1,0 +1,250 @@
+{
+  "parent": "moreadvancementsmod:hunter/root",
+  "display": {
+    "icon": {
+      "id": "minecraft:end_stone"
+    },
+    "title": {
+      "translate": "advancements.moreadvancementsmod.hunter.all_end_advancements.title"
+    },
+    "description": {
+      "translate": "advancements.moreadvancementsmod.hunter.all_end_advancements.description"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "root": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "minecraft:end/root": true
+            }
+          }
+        }
+      }
+    },
+    "dragon_breath": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "minecraft:end/dragon_breath": true
+            }
+          }
+        }
+      }
+    },
+    "dragon_egg": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "minecraft:end/dragon_egg": true
+            }
+          }
+        }
+      }
+    },
+    "elytra": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "minecraft:end/elytra": true
+            }
+          }
+        }
+      }
+    },
+    "enter_end_gateway": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "minecraft:end/enter_end_gateway": true
+            }
+          }
+        }
+      }
+    },
+    "find_end_city": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "minecraft:end/find_end_city": true
+            }
+          }
+        }
+      }
+    },
+    "kill_dragon": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "minecraft:end/kill_dragon": true
+            }
+          }
+        }
+      }
+    },
+    "levitate": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "minecraft:end/levitate": true
+            }
+          }
+        }
+      }
+    },
+    "respawn_dragon": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "minecraft:end/respawn_dragon": true
+            }
+          }
+        }
+      }
+    },
+    "all_shulker_boxes": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "moreadvancementsmod:end/all_shulker_boxes": true
+            }
+          }
+        }
+      }
+    },
+    "disguise": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "moreadvancementsmod:end/disguise": true
+            }
+          }
+        }
+      }
+    },
+    "dragon_head": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "moreadvancementsmod:end/dragon_head": true
+            }
+          }
+        }
+      }
+    },
+    "dragon_killer": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "moreadvancementsmod:end/dragon_killer": true
+            }
+          }
+        }
+      }
+    },
+    "shulker_box": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "moreadvancementsmod:end/shulker_box": true
+            }
+          }
+        }
+      }
+    },
+    "broken_elytra": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "moreadvancementsmod:end/broken_elytra": true
+            }
+          }
+        }
+      }
+    },
+    "enchanted_elytra": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "moreadvancementsmod:end/enchanted_elytra": true
+            }
+          }
+        }
+      }
+    }
+  },
+
+  "requirement": [
+    ["root"],
+    ["dragon_breath"],
+    ["dragon_egg"],
+    ["elytra"],
+    ["enter_end_gateway"],
+    ["find_end_city"],
+    ["kill_dragon"],
+    ["levitate"],
+    ["respawn_dragon"],
+    ["all_shulker_boxes"],
+    ["disguise"],
+    ["dragon_head"],
+    ["dragon_killer"],
+    ["shulker_box"],
+    ["broken_elytra"],
+    ["enchanted_elytra"]
+  ],
+  "rewards": {
+    "experience": 1000
+  }
+  }

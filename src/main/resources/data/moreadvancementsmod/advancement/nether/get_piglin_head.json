@@ -1,0 +1,34 @@
+{
+  "parent": "minecraft:nether/find_bastion",
+  "display": {
+    "icon": {
+      "id": "minecraft:piglin_head"
+    },
+    "title": {
+      "translate": "advancements.moreadvancementsmod.nether.get_piglin_head.title"
+    },
+    "description": {
+      "translate": "advancements.moreadvancementsmod.nether.get_piglin_head.description"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:piglin_head"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 100
+  }}

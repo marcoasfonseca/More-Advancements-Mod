@@ -1,0 +1,114 @@
+{
+  "parent": "minecraft:husbandry/tame_an_animal",
+  "display": {
+    "icon": {
+      "id": "minecraft:wheat_seeds"
+    },
+    "title": {
+      "translate": "advancements.moreadvancementsmod.husbandry.all_parrots.title"
+    },
+    "description": {
+      "translate": "advancements.moreadvancementsmod.husbandry.all_parrots.description"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "red_blue": {
+      "trigger": "minecraft:tame_animal",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "minecraft:parrot",
+                "variant": "red_blue"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "blue": {
+      "trigger": "minecraft:tame_animal",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "minecraft:parrot",
+                "variant": "blue"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "green": {
+      "trigger": "minecraft:tame_animal",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "minecraft:parrot",
+                "variant": "green"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "yellow_blue": {
+      "trigger": "minecraft:tame_animal",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "minecraft:parrot",
+                "variant": "yellow_blue"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "gray": {
+      "trigger": "minecraft:tame_animal",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "minecraft:parrot",
+                "variant": "gray"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirement": [
+    ["red_blue"],
+    ["blue"],
+    ["green"],
+    ["yellow_blue"],
+    ["gray"]
+  ],
+  "rewards": {
+    "experience": 500
+  } }

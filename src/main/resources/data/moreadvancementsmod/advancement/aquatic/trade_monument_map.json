@@ -1,0 +1,31 @@
+{
+  "parent": "moreadvancementsmod:aquatic/root",
+  "display": {
+    "icon": {
+      "id": "minecraft:filled_map"
+    },
+    "title": {
+      "translate": "advancements.moreadvancementsmod.adventure.trade_monument_map.title"
+    },
+    "description": {
+      "translate": "advancements.moreadvancementsmod.adventure.trade_monument_map.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": "minecraft:filled_map",
+          "components": {
+            "minecraft:item_name": "{translate:filled_map.monument}"
+          }
+        }
+      }
+    }
+  }
+}

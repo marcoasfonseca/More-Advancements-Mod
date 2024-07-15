@@ -1,0 +1,29 @@
+{
+  "parent": "minecraft:adventure/root",
+  "display": {
+    "icon": {
+      "id": "minecraft:chiseled_deepslate"
+    },
+    "title": {
+      "translate": "advancements.moreadvancementsmod.adventure.ancient_city.title"
+    },
+    "description": {
+      "translate": "advancements.moreadvancementsmod.adventure.ancient_city.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "stepping_on": {
+            "structures": "minecraft:ancient_city"
+          }
+        }
+      }
+    }
+  } }

@@ -1,0 +1,27 @@
+{
+  "parent": "moreadvancementsmod:aquatic/heartofsea",
+  "display": {
+    "icon": {
+      "id": "minecraft:conduit"
+    },
+    "title": {
+      "translate": "advancements.moreadvancementsmod.aquatic.conduit.title"
+    },
+    "description": {
+      "translate": "advancements.moreadvancementsmod.aquatic.conduit.description"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "requirement": {
+      "conditions": {
+        "effects": {
+          "minecraft:conduit_power": {}
+        }
+      },
+      "trigger": "minecraft:effects_changed"
+    }
+  } }

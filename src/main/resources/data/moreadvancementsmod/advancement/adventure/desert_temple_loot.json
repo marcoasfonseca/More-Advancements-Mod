@@ -1,0 +1,25 @@
+{
+  "parent": "moreadvancementsmod:adventure/desert_temple",
+  "display": {
+    "icon": {
+      "id": "minecraft:chest"
+    },
+    "title": {
+      "translate": "advancements.moreadvancementsmod.adventure.desert_temple_loot.title"
+    },
+    "description": {
+      "translate": "advancements.moreadvancementsmod.adventure.desert_temple_loot.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:player_generates_container_loot",
+      "conditions": {
+        "loot_table": "minecraft:chests/desert_pyramid"
+      }
+    }
+  } }

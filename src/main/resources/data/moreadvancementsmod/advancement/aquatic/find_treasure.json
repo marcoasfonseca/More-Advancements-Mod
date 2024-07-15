@@ -1,0 +1,29 @@
+{
+  "parent": "moreadvancementsmod:aquatic/find_shipwreck",
+  "display": {
+    "icon": {
+      "id": "minecraft:chest"
+    },
+    "title": {
+      "translate": "advancements.moreadvancementsmod.aquatic.find_treasure.title"
+    },
+    "description": {
+      "translate": "advancements.moreadvancementsmod.aquatic.find_treasure.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "buried_treasure": {
+      "trigger": "minecraft:player_generates_container_loot",
+      "conditions": {
+        "loot_table": "minecraft:chests/buried_treasure"
+      }
+    }
+  },
+  "requirement": [
+    ["buried_treasure"]
+  ]
+}

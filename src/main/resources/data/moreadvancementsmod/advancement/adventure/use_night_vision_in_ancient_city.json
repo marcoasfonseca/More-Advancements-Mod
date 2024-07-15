@@ -1,0 +1,37 @@
+{
+  "parent": "moreadvancementsmod:adventure/ancient_city",
+  "display": {
+    "icon": {
+      "id": "minecraft:potion",
+      "components": {
+        "minecraft:potion_contents": {
+          "potion": "minecraft:night_vision"
+        }
+      }
+    },
+    "title": {
+      "translate": "advancements.moreadvancementsmod.adventure.use_night_vision_in_ancient_city.title"
+    },
+    "description": {
+      "translate": "advancements.moreadvancementsmod.adventure.use_night_vision_in_ancient_city.description"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "structures": "minecraft:ancient_city"
+          },
+          "effects": {
+            "minecraft:night_vision": {}
+          }
+        }
+      }
+    }
+  } }

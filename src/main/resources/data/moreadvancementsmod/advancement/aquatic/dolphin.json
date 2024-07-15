@@ -1,0 +1,27 @@
+{
+  "parent": "moreadvancementsmod:aquatic/root",
+  "display": {
+    "icon": {
+      "id": "moreadvancementsmod:dolphins_grace"
+    },
+    "title": {
+      "translate": "advancements.moreadvancementsmod.aquatic.dolphin.title"
+    },
+    "description": {
+      "translate": "advancements.moreadvancementsmod.aquatic.dolphin.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "requirement": {
+      "conditions": {
+        "effects": {
+          "minecraft:dolphins_grace": {}
+        }
+      },
+      "trigger": "minecraft:effects_changed"
+    }
+  } }
