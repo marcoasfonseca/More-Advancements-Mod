@@ -704,6 +704,58 @@
           }
         }
       }
+    },
+    "tame_donkey": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "moreadvancementsmod:husbandry/tame_donkey": true
+            }
+          }
+        }
+      }
+    },
+    "donkey_chest": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "moreadvancementsmod:husbandry/donkey_chest": true
+            }
+          }
+        }
+      }
+    },
+    "all_llamas": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "moreadvancementsmod:husbandry/all_llamas": true
+            }
+          }
+        }
+      }
+    },
+    "leash_all_carpet_llamas": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "moreadvancementsmod:husbandry/leash_all_carpet_llamas": true
+            }
+          }
+        }
+      }
     }
   },
 
@@ -759,7 +811,11 @@
     ["all_horses"],
     ["all_parrots"],
     ["dye_wolf_collar"],
-    ["feed_horse_with_golden_apple"]
+    ["feed_horse_with_golden_apple"],
+    ["all_llamas"],
+    ["tame_donkey"],
+    ["donkey_chest"],
+    ["leash_all_carpet_llamas"]
   ],
   "rewards": {
     "experience": 1000

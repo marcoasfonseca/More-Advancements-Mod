@@ -24,10 +24,13 @@
       "conditions": {
         "items": [
           {
-            "items": [
-              "minecraft:elytra"
-            ],
-            "durability": 1
+            "items": "minecraft:elytra",
+            "components": {
+              "minecraft:damage": 432
+            }
           }
         ]
-      }  }   } }
+      }
+    }
+  }
+}

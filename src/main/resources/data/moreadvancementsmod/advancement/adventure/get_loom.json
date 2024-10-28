@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:adventure/root",
+  "display": {
+    "icon": {
+      "id": "minecraft:loom"
+    },
+    "title": {
+      "translate": "advancements.moreadvancementsmod.adventure.get_loom.title"
+    },
+    "description": {
+      "translate": "advancements.moreadvancementsmod.adventure.get_loom.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:loom"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "parent": "moreadvancementsmod:nether/full_gold_beacon",
+  "display": {
+    "icon": {
+      "id": "minecraft:diamond_block"
+    },
+    "title": {
+      "translate": "advancements.moreadvancementsmod.nether.full_diamond_beacon.title"
+    },
+    "description": {
+      "translate": "advancements.moreadvancementsmod.nether.full_diamond_beacon.description"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 750
+  } }

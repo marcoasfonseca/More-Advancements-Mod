@@ -444,6 +444,71 @@
           }
         }
       }
+    },
+    "full_iron_beacon": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "moreadvancementsmod:nether/full_iron_beacon": true
+            }
+          }
+        }
+      }
+    },
+    "full_gold_beacon": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "moreadvancementsmod:nether/full_gold_beacon": true
+            }
+          }
+        }
+      }
+    },
+    "full_diamond_beacon": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "moreadvancementsmod:nether/full_diamond_beacon": true
+            }
+          }
+        }
+      }
+    },
+    "full_emerald_beacon": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "moreadvancementsmod:nether/full_emerald_beacon": true
+            }
+          }
+        }
+      }
+    },
+    "full_netherite_beacon": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "moreadvancementsmod:nether/full_netherite_beacon": true
+            }
+          }
+        }
+      }
     }
   },
 
@@ -480,7 +545,12 @@
     ["swim_in_lava"],
     ["get_piglin_head"],
     ["kill_with_piglin_head"],
-    ["get_bastion_gold"]
+    ["get_bastion_gold"],
+    ["full_iron_beacon"],
+    ["full_gold_beacon"],
+    ["full_diamond_beacon"],
+    ["full_emerald_beacon"],
+    ["full_netherite_beacon"]
   ],
   "rewards": {
     "experience": 1000

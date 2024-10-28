@@ -964,6 +964,175 @@
           }
         }
       }
+    },
+    "brush_armadillo": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "minecraft:adventure/brush_armadillo": true
+            }
+          }
+        }
+      }
+    },
+    "crafters_crafting_crafters": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "minecraft:adventure/crafters_crafting_crafters": true
+            }
+          }
+        }
+      }
+    },
+    "under_lock_and_key": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "minecraft:adventure/under_lock_and_key": true
+            }
+          }
+        }
+      }
+    },
+    "who_needs_rockets": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "minecraft:adventure/who_needs_rockets": true
+            }
+          }
+        }
+      }
+    },
+    "revaulting": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "minecraft:adventure/revaulting": true
+            }
+          }
+        }
+      }
+    },
+    "overoverkill": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "minecraft:adventure/overoverkill": true
+            }
+          }
+        }
+      }
+    },
+    "lighten_up": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "minecraft:adventure/lighten_up": true
+            }
+          }
+        }
+      }
+    },
+    "blowback": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "minecraft:adventure/blowback": true
+            }
+          }
+        }
+      }
+    },
+    "get_loom": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "moreadvancementsmod:adventure/get_loom": true
+            }
+          }
+        }
+      }
+    },
+    "place_banner_overworld": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "moreadvancementsmod:adventure/place_banner_overworld": true
+            }
+          }
+        }
+      }
+    },
+    "all_patterns": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "moreadvancementsmod:adventure/all_patterns": true
+            }
+          }
+        }
+      }
+    },
+    "place_banner_nether": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "moreadvancementsmod:adventure/place_banner_nether": true
+            }
+          }
+        }
+      }
+    },
+    "place_banner_end": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "moreadvancementsmod:adventure/place_banner_end": true
+            }
+          }
+        }
+      }
     }
   },
 
@@ -1035,12 +1204,26 @@
     ["spyglass_at_all_mobs"],
     ["store_item_in_decorated_pot"],
     ["ancient_city"],
+    ["ancient_city_loot"],
     ["use_night_vision_in_ancient_city"],
     ["play_jukebox_in_ancient_city"],
-    ["ancient_city_loot"],
     ["get_swift_sneak_enchanted_book"],
     ["get_ancient_templates"],
-    ["find_trail_ruins"]
+    ["find_trail_ruins"],
+    ["brush_armadillo"],
+    ["crafters_crafting_crafters"],
+    ["minecraft_trials_edition"],
+    ["under_lock_and_key"],
+    ["who_needs_rockets"],
+    ["revaulting"],
+    ["overoverkill"],
+    ["lighten_up"],
+    ["blowback"],
+    ["get_loom"],
+    ["place_banner_overworld"],
+    ["all_patterns"],
+    ["place_banner_nether"],
+    ["place_banner_end"]
   ],
   "rewards": {
     "experience": 1000

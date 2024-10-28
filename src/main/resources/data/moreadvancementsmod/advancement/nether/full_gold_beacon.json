@@ -1,0 +1,25 @@
+{
+  "parent": "moreadvancementsmod:nether/full_iron_beacon",
+  "display": {
+    "icon": {
+      "id": "minecraft:gold_block"
+    },
+    "title": {
+      "translate": "advancements.moreadvancementsmod.nether.full_gold_beacon.title"
+    },
+    "description": {
+      "translate": "advancements.moreadvancementsmod.nether.full_gold_beacon.description"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 500
+  } }

@@ -1,0 +1,96 @@
+{
+  "parent": "minecraft:husbandry/tame_an_animal",
+  "display": {
+    "icon": {
+      "id": "minecraft:wheat"
+    },
+    "title": {
+      "translate": "advancements.moreadvancementsmod.husbandry.all_llamas.title"
+    },
+    "description": {
+      "translate": "advancements.moreadvancementsmod.husbandry.all_llamas.description"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "white": {
+      "trigger": "minecraft:tame_animal",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "minecraft:llama",
+                "variant": "white"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "creamy": {
+      "trigger": "minecraft:tame_animal",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "minecraft:llama",
+                "variant": "creamy"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "brown": {
+      "trigger": "minecraft:tame_animal",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "minecraft:horse",
+                "variant": "brown"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "gray": {
+      "trigger": "minecraft:tame_animal",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "minecraft:horse",
+                "variant": "gray"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirement": [
+    ["white"],
+    ["creamy"],
+    ["brown"],
+    ["gray"]
+  ],
+  "rewards": {
+    "experience": 400
+  } }

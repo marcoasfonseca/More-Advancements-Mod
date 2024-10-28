@@ -24,18 +24,13 @@
       "conditions": {
         "items": [
           {
-            "items": [
-              "minecraft:elytra"
-            ],
-            "enchantments": [
-              {
-                "enchantment": "minecraft:mending"
-              },
-              {
-                "enchantment": "minecraft:unbreaking",
-                "levels": 3
+            "items": "minecraft:elytra",
+            "components": {
+              "minecraft:enchantments": {
+                "minecraft:unbreaking": 3,
+                "minecraft:mending": 1
               }
-            ]
+            }
           }
         ]
       }

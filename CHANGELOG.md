@@ -1,10 +1,40 @@
 # Changelog History
 
-v1.6.0 (1.20.6)
+v1.8.0 (1.21)
 
-Updated to Minecraft 1.20.6
+Fixes:
+- Fixed - "432 is the Real Limit!" advancement condition was not correct;
+- Fixed - "Unlimited Air Miles" advancement condition was not correct;
 
-- Added spanish version;
+Changes:
+- Updated Portuguese translation;
+- Updated advancement "All Nether Explored!" to include new advancements
+- Updated advancement "All Animals Fed!" to include new advancements
+- Updated advancement "All Adventures Lived!" to include new advancements
+
+Added 10 new advancement:
+
+#### Nether:
+- Added Challenge - "Impressive!"
+- Added Challenge - "Excepcional!"
+- Added Challenge - "Magnificent!"
+- Added Challenge - "Stunning!"
+- Added Challenge - "Suberb!"
+
+#### Adventure:
+- Added Task - "Weaver!"
+- Added Task - "Leaving My Mark"
+- Added Challenge - "Ambitious"
+- Added Task - "I Was Here!"
+- Added Task - "I Was Everywhere!"
+
+----
+
+v1.7.0 (1.21)
+
+Updated to Minecraft 1.21
+
+- Added spanish translation;
 
 Changes:
 - Updated advancement "Bibliophile" to include new enchantment books;
@@ -12,8 +42,9 @@ Changes:
 - Updated advancement "Ecletic" to include new music disc advancements;
 - Updated advancement "All Music Heard!" to include new Ecletic Tab advancements;
 - Updated advancement "Biologist!" to include new mobs;
+- Renamed "All Lives Matter!" advancement to "Costumer From Far Away!";
 
-Added x new advancement:
+Added 10 new advancement:
 
 #### Ecletic:
 - Added Task - "Music Disc "Creator""
@@ -24,8 +55,10 @@ Added x new advancement:
 - Added Task - "Precipice"
 
 #### Husbandry:
-- Added Task - "" - tame donkey
-- Added Goal - "" - donkey chest
+- Added Task - "Unlikely Friendship"
+- Added Goal - "Chest With Legs"
+- Added Challenge - "The Inclusive Caravan!"
+- Added Goal - "Fashion Week"
 
 ----
 

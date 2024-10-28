@@ -1,0 +1,372 @@
+{
+  "parent": "moreadvancementsmod:husbandry/all_llamas",
+  "display": {
+    "icon": {
+      "id": "minecraft:cyan_carpet"
+    },
+    "title": {
+      "translate": "advancements.moreadvancementsmod.husbandry.leash_all_carpet_llamas.title"
+    },
+    "description": {
+      "translate": "advancements.moreadvancementsmod.husbandry.leash_all_carpet_llamas.description"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "black": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": "minecraft:lead"
+        },
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:llama",
+              "slots": {
+                "armor.body": {
+                  "items": "minecraft:black_carpet"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "white": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": "minecraft:lead"
+        },
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:llama",
+              "slots": {
+                "armor.body": {
+                  "items": "minecraft:white_carpet"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "light_gray": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": "minecraft:lead"
+        },
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:llama",
+              "slots": {
+                "armor.body": {
+                  "items": "minecraft:light_gray_carpet"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "gray": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": "minecraft:lead"
+        },
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:llama",
+              "slots": {
+                "armor.body": {
+                  "items": "minecraft:gray_carpet"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "brown": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": "minecraft:lead"
+        },
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:llama",
+              "slots": {
+                "armor.body": {
+                  "items": "minecraft:brown_carpet"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "red": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": "minecraft:lead"
+        },
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:llama",
+              "slots": {
+                "armor.body": {
+                  "items": "minecraft:red_carpet"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "orange": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": "minecraft:lead"
+        },
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:llama",
+              "slots": {
+                "armor.body": {
+                  "items": "minecraft:orange_carpet"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "yellow": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": "minecraft:lead"
+        },
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:llama",
+              "slots": {
+                "armor.body": {
+                  "items": "minecraft:yellow_carpet"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "lime": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": "minecraft:lead"
+        },
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:llama",
+              "slots": {
+                "armor.body": {
+                  "items": "minecraft:lime_carpet"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "green": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": "minecraft:lead"
+        },
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:llama",
+              "slots": {
+                "armor.body": {
+                  "items": "minecraft:green_carpet"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "cyan": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": "minecraft:lead"
+        },
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:llama",
+              "slots": {
+                "armor.body": {
+                  "items": "minecraft:cyan_carpet"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "light_blue": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": "minecraft:lead"
+        },
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:llama",
+              "slots": {
+                "armor.body": {
+                  "items": "minecraft:light_blue_carpet"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "blue": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": "minecraft:lead"
+        },
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:llama",
+              "slots": {
+                "armor.body": {
+                  "items": "minecraft:blue_carpet"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "purple": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": "minecraft:lead"
+        },
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:llama",
+              "slots": {
+                "armor.body": {
+                  "items": "minecraft:purple_carpet"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "magenta": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": "minecraft:lead"
+        },
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:llama",
+              "slots": {
+                "armor.body": {
+                  "items": "minecraft:magenta_carpet"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "pink": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": "minecraft:lead"
+        },
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:llama",
+              "slots": {
+                "armor.body": {
+                  "items": "minecraft:pink_carpet"
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

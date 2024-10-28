@@ -1,0 +1,25 @@
+{
+  "parent": "minecraft:nether/create_full_beacon",
+  "display": {
+    "icon": {
+      "id": "minecraft:iron_block"
+    },
+    "title": {
+      "translate": "advancements.moreadvancementsmod.nether.full_iron_beacon.title"
+    },
+    "description": {
+      "translate": "advancements.moreadvancementsmod.nether.full_iron_beacon.description"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 500
+  } }

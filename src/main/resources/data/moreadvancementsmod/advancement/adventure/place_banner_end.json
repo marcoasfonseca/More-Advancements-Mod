@@ -1,0 +1,39 @@
+{
+  "parent": "moreadvancementsmod:adventure/place_banner_nether",
+  "display": {
+    "icon": {
+      "id": "minecraft:blue_banner"
+    },
+    "title": {
+      "translate": "advancements.moreadvancementsmod.adventure.place_banner_end.title"
+    },
+    "description": {
+      "translate": "advancements.moreadvancementsmod.adventure.place_banner_end.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "items": "#minecraft:banners"
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "dimension": "minecraft:the_end"
+            }
+          }
+        ]
+      }
+    }
+  }
+}
