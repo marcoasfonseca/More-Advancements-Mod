@@ -26,7 +26,7 @@
           {
             "items": "minecraft:elytra",
             "components": {
-              "minecraft:damage": 432
+              "minecraft:damage": 431
             }
           }
         ]

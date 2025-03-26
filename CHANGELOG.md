@@ -1,5 +1,17 @@
 # Changelog History
 
+v1.8.1 (1.21.1)
+
+- Fixed - "432 is the Real Limit!" advancement condition was not correct;
+
+----
+
+v1.8.0 (1.21.1)
+
+Updated to Minecraft 1.21.1
+
+----
+
 v1.8.0 (1.21)
 
 Fixes:
