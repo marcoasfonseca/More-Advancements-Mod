@@ -1,0 +1,141 @@
+{
+  "parent": "moreadvancementsmod:story/get_minecart",
+  "display": {
+    "icon": {
+      "id": "minecraft:powered_rail"
+    },
+    "title": {
+      "translate": "advancements.moreadvancementsmod.story.railway_engineer.title"
+    },
+    "description": {
+      "translate": "advancements.moreadvancementsmod.story.railway_engineer.description"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "minecart": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:minecart"
+            ]
+          }
+        ]
+      }
+    },
+    "hopper_minecart": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:hopper_minecart"
+            ]
+          }
+        ]
+      }
+    },
+    "chest_minecart": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:chest_minecart"
+            ]
+          }
+        ]
+      }
+    },
+    "furnace_minecart": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:furnace_minecart"
+            ]
+          }
+        ]
+      }
+    },
+    "tnt_minecart": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:tnt_minecart"
+            ]
+          }
+        ]
+      }
+    },
+    "rail": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:rail"
+            ]
+          }
+        ]
+      }
+    },
+    "powered_rail": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:powered_rail"
+            ]
+          }
+        ]
+      }
+    },
+    "detector_rail": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:detector_rail"
+            ]
+          }
+        ]
+      }
+    },
+    "activator_rail": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:activator_rail"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirement": [
+    ["minecart"],
+    ["hopper_minecart"],
+    ["chest_minecart"],
+    ["furnace_minecart"],
+    ["tnt_minecart"],
+    ["rail"],
+    ["powered_rail"],
+    ["detector_rail"],
+    ["activator_rail"]
+  ],
+  "rewards": {
+    "experience": 50
+  }}

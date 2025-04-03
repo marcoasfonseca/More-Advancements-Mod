@@ -1,5 +1,29 @@
 # Changelog History
 
+v1.9.0 (1.21.1)
+
+Changes:
+- Updated Portuguese translation;
+- Updated advancement "All Story Told!" to include new advancements
+- Updated advancement "All Animals Fed!" to include new advancements
+- Changed "I Was Everywhere!" advancement icon to purple banner;
+
+Added 8 new advancement:
+
+#### Story:
+- Added Task - "Ticket to Ride"
+- Added Goal - "On a Rail"
+- Added Challenge - "Railway Engineer"
+
+#### Husbandry:
+- Added Task - "Time to Farm"
+- Added Task - "Setting Up Camp"
+- Added Task - "Delicious Fish"
+- Added Task - "Afraid of the Dark"
+- Added Challenge - "Rainbow lights"
+
+----
+
 v1.8.1 (1.21.1)
 
 - Fixed - "432 is the Real Limit!" advancement condition was not correct;

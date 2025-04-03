@@ -756,6 +756,71 @@
           }
         }
       }
+    },
+    "all_candles": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "moreadvancementsmod:husbandry/all_candles": true
+            }
+          }
+        }
+      }
+    },
+    "light_candle": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "moreadvancementsmod:husbandry/light_candle": true
+            }
+          }
+        }
+      }
+    },
+    "get_wooden_hoe": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "moreadvancementsmod:husbandry/get_wooden_hoe": true
+            }
+          }
+        }
+      }
+    },
+    "place_campfire": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "moreadvancementsmod:husbandry/place_campfire": true
+            }
+          }
+        }
+      }
+    },
+    "cook_fish_in_campfire": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "moreadvancementsmod:husbandry/cook_fish_in_campfire": true
+            }
+          }
+        }
+      }
     }
   },
 
@@ -815,7 +880,12 @@
     ["all_llamas"],
     ["tame_donkey"],
     ["donkey_chest"],
-    ["leash_all_carpet_llamas"]
+    ["leash_all_carpet_llamas"],
+    ["all_candles"],
+    ["light_candle"],
+    ["get_wooden_hoe"],
+    ["place_campfire"],
+    ["cook_fish_in_campfire"]
   ],
   "rewards": {
     "experience": 1000

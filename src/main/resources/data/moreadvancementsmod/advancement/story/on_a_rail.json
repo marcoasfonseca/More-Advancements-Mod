@@ -1,0 +1,23 @@
+{
+  "parent": "moreadvancementsmod:story/get_minecart",
+  "display": {
+    "icon": {
+      "id": "minecraft:rail"
+    },
+    "title": {
+      "translate": "advancements.moreadvancementsmod.story.on_a_rail.title"
+    },
+    "description": {
+      "translate": "advancements.moreadvancementsmod.story.on_a_rail.description"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

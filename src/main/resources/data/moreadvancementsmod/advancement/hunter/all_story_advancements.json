@@ -327,6 +327,45 @@
           }
         }
       }
+    },
+    "get_minecart": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "moreadvancementsmod:story/get_minecart": true
+            }
+          }
+        }
+      }
+    },
+    "on_a_rail": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "moreadvancementsmod:story/on_a_rail": true
+            }
+          }
+        }
+      }
+    },
+    "railway_enginner": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "moreadvancementsmod:story/railway_enginner": true
+            }
+          }
+        }
+      }
     }
   },
   "requirement": [
@@ -353,7 +392,10 @@
     ["get_wooden_pickaxe"],
     ["get_wooden_tools"],
     ["get_furnace"],
-    ["get_copper_ingot"]
+    ["get_copper_ingot"],
+    ["get_minecart"],
+    ["on_a_rail"],
+    ["railway_enginner"]
   ],
   "rewards": {
     "experience": 1000,

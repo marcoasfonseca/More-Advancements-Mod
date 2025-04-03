@@ -1,14 +1,14 @@
 {
-  "parent": "moreadvancementsmod:adventure/place_banner_nether",
+  "parent": "moreadvancementsmod:husbandry/place_campfire",
   "display": {
     "icon": {
-      "id": "minecraft:purple_banner"
+      "id": "minecraft:cooked_cod"
     },
     "title": {
-      "translate": "advancements.moreadvancementsmod.adventure.place_banner_end.title"
+      "translate": "advancements.moreadvancementsmod.husbandry.cook_fish_in_campfire.title"
     },
     "description": {
-      "translate": "advancements.moreadvancementsmod.adventure.place_banner_end.description"
+      "translate": "advancements.moreadvancementsmod.husbandry.cook_fish_in_campfire.description"
     },
     "frame": "task",
     "show_toast": true,
@@ -17,23 +17,24 @@
   },
   "criteria": {
     "requirement": {
-      "trigger": "minecraft:placed_block",
+      "trigger": "minecraft:item_used_on_block",
       "conditions": {
         "location": [
           {
             "condition": "minecraft:match_tool",
             "predicate": {
-              "items": "#minecraft:banners"
+              "items": "#minecraft:fishes"
             }
           },
           {
             "condition": "minecraft:location_check",
             "predicate": {
-              "dimension": "minecraft:the_end"
+              "block": {
+                "blocks": "minecraft:campfire"
+              }
             }
           }
         ]
       }
     }
-  }
-}
+  }}
