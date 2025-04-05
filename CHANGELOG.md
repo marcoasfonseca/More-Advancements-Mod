@@ -1,5 +1,22 @@
 # Changelog History
 
+v1.10.0 (1.21.2)
+
+Updated to Minecraft 1.21.2
+
+Changes:
+- Updated Portuguese translation;
+- Updated advancement "Ambitious" to include new banner paterns
+
+Added x new advancements:
+
+#### Husbandry:
+- Added Task - "Cow Tipper"
+- Added Goal - "Portable Storage"
+- Added Challenge - "Bag It All!"
+
+----
+
 v1.9.0 (1.21.1)
 
 Changes:
@@ -8,7 +25,7 @@ Changes:
 - Updated advancement "All Animals Fed!" to include new advancements
 - Changed "I Was Everywhere!" advancement icon to purple banner;
 
-Added 8 new advancement:
+Added 8 new advancements:
 
 #### Story:
 - Added Task - "Ticket to Ride"
@@ -48,7 +65,7 @@ Changes:
 - Updated advancement "All Animals Fed!" to include new advancements
 - Updated advancement "All Adventures Lived!" to include new advancements
 
-Added 10 new advancement:
+Added 10 new advancements:
 
 #### Nether:
 - Added Challenge - "Impressive!"
@@ -80,7 +97,7 @@ Changes:
 - Updated advancement "Biologist!" to include new mobs;
 - Renamed "All Lives Matter!" advancement to "Costumer From Far Away!";
 
-Added 10 new advancement:
+Added 10 new advancements:
 
 #### Ecletic:
 - Added Task - "Music Disc "Creator""
@@ -108,7 +125,7 @@ Changes:
 - Updated "Now You Have Reasons to Cry!" advancement conditions;
 - Updated Portuguese translation;
 
-Added 5 new advancement:
+Added 5 new advancements:
 
 #### Adventure:
 - Added Task - "You Stepped on Something"
@@ -141,7 +158,7 @@ Changes:
 - Updated advancement "All Nether Explored!" to include new advancements
 - Updated Portuguese translation
 
-Added 18 new advancement:
+Added 18 new advancements:
 
 #### Story:
 - Added Task - "Chuck Norris"
@@ -182,7 +199,7 @@ Changes:
 - Updated advancement "Good Hunt" to include piglin head.
 - Updated Portuguese translation
 
-Added 2 new advancement:
+Added 2 new advancements:
 
 #### Adventure:
 - Added Task - "Is it an Angel?"

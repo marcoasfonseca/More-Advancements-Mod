@@ -1,0 +1,27 @@
+{
+  "parent": "moreadvancementsmod:husbandry/cow_tipper",
+  "display": {
+    "icon": {
+      "id": "minecraft:bundle"
+    },
+    "title": {
+      "translate": "advancements.moreadvancementsmod.husbandry.get_bundle.title"
+    },
+    "description": {
+      "translate": "advancements.moreadvancementsmod.husbandry.get_bundle.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "#minecraft:bundles"
+          }
+        ]
+      } }   } }

@@ -1,0 +1,216 @@
+{
+  "parent": "moreadvancementsmod:husbandry/get_bundle",
+  "display": {
+    "icon": {
+      "id": "minecraft:green_bundle"
+    },
+    "title": {
+      "translate": "advancements.moreadvancementsmod.husbandry.all_bundles.title"
+    },
+    "description": {
+      "translate": "advancements.moreadvancementsmod.husbandry.all_bundles.description"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "white_bundle": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:white_bundle"
+            ]
+          }
+        ]
+      }  },
+    "orange_bundle": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:orange_bundle"
+            ]
+          }
+        ]
+      }  },
+    "magenta_bundle": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:magenta_bundle"
+            ]
+          }
+        ]
+      }  },
+    "light_blue_bundle": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:light_blue_bundle"
+            ]
+          }
+        ]
+      }  },
+    "yellow_bundle": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:yellow_bundle"
+            ]
+          }
+        ]
+      }  },
+    "lime_bundle": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:lime_bundle"
+            ]
+          }
+        ]
+      }  },
+    "pink_bundle": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:pink_bundle"
+            ]
+          }
+        ]
+      }  },
+    "gray_bundle": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:gray_bundle"
+            ]
+          }
+        ]
+      }  },
+    "light_gray_bundle": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:light_gray_bundle"
+            ]
+          }
+        ]
+      }  },
+    "cyan_bundle": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:cyan_bundle"
+            ]
+          }
+        ]
+      }  },
+    "purple_bundle": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:purple_bundle"
+            ]
+          }
+        ]
+      }  },
+    "blue_bundle": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:blue_bundle"
+            ]
+          }
+        ]
+      }  },
+    "brown_bundle": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:brown_bundle"
+            ]
+          }
+        ]
+      }  },
+    "green_bundle": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:green_bundle"
+            ]
+          }
+        ]
+      }  },
+    "red_bundle": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:red_bundle"
+            ]
+          }
+        ]
+      }  },
+    "black_bundle": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:black_bundle"
+            ]
+          }
+        ]
+      }  }},
+
+  "requirement": [
+    ["white_bundle"],
+    ["orange_bundle"],
+    ["magenta_bundle"],
+    ["light_blue_bundle"],
+    ["yellow_bundle"],
+    ["lime_bundle"],
+    ["pink_bundle"],
+    ["gray_bundle"],
+    ["light_gray_bundle"],
+    ["cyan_bundle"],
+    ["purple_bundle"],
+    ["blue_bundle"],
+    ["brown_bundle"],
+    ["green_bundle"],
+    ["red_bundle"],
+    ["black_bundle"]
+  ],
+  "rewards": {
+    "experience": 200
+  } }
