@@ -8,7 +8,7 @@ Changes:
 - Updated Portuguese translation;
 - Updated advancement "Ambitious" to include new banner paterns
 
-Added x new advancements:
+Added 3 new advancements:
 
 #### Husbandry:
 - Added Task - "Cow Tipper"
