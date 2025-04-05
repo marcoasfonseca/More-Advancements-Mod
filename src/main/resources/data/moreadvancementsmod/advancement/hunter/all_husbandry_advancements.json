@@ -821,6 +821,45 @@
           }
         }
       }
+    },
+    "cow_tipper": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "moreadvancementsmod:husbandry/cow_tipper": true
+            }
+          }
+        }
+      }
+    },
+    "get_bundle": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "moreadvancementsmod:husbandry/get_bundle": true
+            }
+          }
+        }
+      }
+    },
+    "all_bundles": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "moreadvancementsmod:husbandry/all_bundles": true
+            }
+          }
+        }
+      }
     }
   },
 
@@ -885,7 +924,10 @@
     ["light_candle"],
     ["get_wooden_hoe"],
     ["place_campfire"],
-    ["cook_fish_in_campfire"]
+    ["cook_fish_in_campfire"],
+    ["cow_tipper"],
+    ["get_bundle"],
+    ["all_bundles"]
   ],
   "rewards": {
     "experience": 1000

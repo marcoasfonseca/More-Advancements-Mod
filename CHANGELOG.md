@@ -7,6 +7,7 @@ Updated to Minecraft 1.21.2
 Changes:
 - Updated Portuguese translation;
 - Updated advancement "Ambitious" to include new banner paterns
+- Updated advancement "All Animals Fed!" to include new advancements
 
 Added 3 new advancements:
 
