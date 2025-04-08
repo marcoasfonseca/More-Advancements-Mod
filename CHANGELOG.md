@@ -1,5 +1,11 @@
 # Changelog History
 
+v1.10.0 (1.21.4)
+
+Updated to Minecraft 1.21.4
+
+----
+
 v1.10.0 (1.21.3)
 
 Updated to Minecraft 1.21.3
