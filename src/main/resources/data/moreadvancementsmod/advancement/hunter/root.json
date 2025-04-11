@@ -13,7 +13,7 @@
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false,
-    "background": "moreadvancementsmod:textures/gui/advancements/backgrounds/hunter.png"
+    "background": "moreadvancementsmod:gui/advancements/backgrounds/hunter"
   },
   "criteria": {
     "requirement": {

@@ -797,6 +797,75 @@
           }
         ]
       }
+    },
+    "pale_oak_sapling": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "items": [
+                "minecraft:pale_oak_sapling"
+              ]
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "tag": "minecraft:flower_pots"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "closed_eyeblossom": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "items": [
+                "minecraft:closed_eyeblossom"
+              ]
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "tag": "minecraft:flower_pots"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "open_eyeblossom": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "items": [
+                "minecraft:open_eyeblossom"
+              ]
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "tag": "minecraft:flower_pots"
+              }
+            }
+          }
+        ]
+      }
     }
   },
   "requirement": [
@@ -833,7 +902,10 @@
     ["bamboo"],
     ["cactus"],
     ["crimson_roots"],
-    ["warped_roots"]
+    ["warped_roots"],
+    ["pale_oak_sapling"],
+    ["closed_eyeblossom"],
+    ["open_eyeblossom"]
   ],
   "rewards": {
     "experience": 800

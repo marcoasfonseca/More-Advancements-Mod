@@ -1,5 +1,15 @@
 # Changelog History
 
+v1.10.0 (1.21.5)
+
+Updated to Minecraft 1.21.5
+
+Changes:
+- Updated advancement "Float!" to include new pale oak boat
+- Updated advancement "Plants Are Never Too Much!" to include new plants
+
+----
+
 v1.10.0 (1.21.4)
 
 Updated to Minecraft 1.21.4

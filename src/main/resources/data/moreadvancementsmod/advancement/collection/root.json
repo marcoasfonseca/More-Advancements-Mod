@@ -13,7 +13,7 @@
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": true,
-    "background": "moreadvancementsmod:textures/gui/advancements/backgrounds/collection.png"
+    "background": "moreadvancementsmod:gui/advancements/backgrounds/collection"
   },
   "criteria": {
     "mellohi": {
